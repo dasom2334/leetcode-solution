@@ -28,7 +28,6 @@ var isBipartite = function(graph) {
                     if (!visited[node]) {
                         queue.push(node);
                         visited[node] = true;
-                        console.log(queue);
                     }
                 }
                 current = !current;
