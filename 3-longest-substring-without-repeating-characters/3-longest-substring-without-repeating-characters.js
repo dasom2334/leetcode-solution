@@ -11,10 +11,8 @@ var lengthOfLongestSubstring = function(s) {
         if (i >= 0) {
             max = Math.max(max, arr.length);
             arr = arr.slice(i+1);
-            arr.push(sc);
-        } else {
-            arr.push(sc);
-        }
+        } 
+        arr.push(sc);
     }
     max = Math.max(max, arr.length);
 
