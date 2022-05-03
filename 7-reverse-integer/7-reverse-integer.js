@@ -3,7 +3,7 @@
  * @return {number}
  */
 var reverse = function(x) {
-    
+    const limit = 2**31
     let result = '';
     
     let num = x; 
@@ -17,7 +17,7 @@ var reverse = function(x) {
     
     result = parseInt(result);
     
-    if (result > 2**31 || result < -(2**31)) {
+    if (result > limit || result < -limit) {
         result = 0;
     }
     
