@@ -13,13 +13,13 @@ var shortestPathBinaryMatrix = function(grid) {
     let isGoal = false;
     while (toVisit.length > 0) {
         const current = toVisit.shift();
-        // const strCurrent = [current[0], current[1]].join();
-        // console.log(current[0], current[1], current[2]);
         if (visited[current[0]][current[1]] > current[2]) {
             visited[current[0]][current[1]] = current[2];
-            if (grid[current[0]][current[1]] !== 0) continue;
+            if (grid[current[0]][current[1]] !== 0) {
+                visited[current[0]][current[1]] = 0;
+                continue;
+            };
             if (current[0] == gl - 1 && current[1] == gl - 1) {
-                // min = Math.min(min, current[2]);
                 isGoal = true;
             }
             const visitings = [
@@ -34,7 +34,6 @@ var shortestPathBinaryMatrix = function(grid) {
             ];
             const filtered = visitings.filter(e => e[0] >= 0 && e[0] < gl && e[1] >= 0 && e[1] < gl && e[2] <= gl*gl);
             toVisit = [...toVisit, ...filtered];
-            // console.log(toVisit);
         }
     }
     let result = -1;
