@@ -17,9 +17,9 @@ var shortestPathBinaryMatrix = function(grid) {
             visited[current[0]][current[1]] = current[2];
             if (grid[current[0]][current[1]] !== 0)
                 continue;
-            if (current[0] == gl - 1 && current[1] == gl - 1) {
+            if (current[0] == gl - 1 && current[1] == gl - 1)
                 isGoal = true;
-            }
+            
             const visitings = [
                 [current[0]-1, current[1]-1, current[2]+1],
                 [current[0]-1, current[1], current[2]+1],
