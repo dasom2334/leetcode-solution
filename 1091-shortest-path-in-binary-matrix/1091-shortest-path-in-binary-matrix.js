@@ -35,8 +35,8 @@ var shortestPathBinaryMatrix = function(grid) {
         }
     }
     let result = -1;
-    if (isGoal) {
+    if (isGoal) 
         result = visited[gl-1][gl-1];
-    }
+    
     return result;
 };
