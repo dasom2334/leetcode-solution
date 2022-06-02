@@ -15,7 +15,6 @@ var isMatch = function(s, p) {
     dp[0][0] = 1;
     
     for (let i0 = 1; i0 <= dp[0].length; i0++) {
-        console.log(p[i0-1], i0)
         if (p[i0-1] == '*') {
             dp[0][i0] = dp[0][i0-2]
         };
