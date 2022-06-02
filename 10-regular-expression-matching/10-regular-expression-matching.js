@@ -18,12 +18,11 @@ var isMatch = function(s, p) {
         console.log(p[i0-1], i0)
         if (p[i0-1] == '*') {
             dp[0][i0] = dp[0][i0-2]
-            console.log(dp[0][i0], dp[0][i0-2], i0, dp[0]);
         };
     }
     // if (p[1] == '*') dp[0][2] = 1;
     
-    console.log(dp[0])
+    // console.log(dp[0])
     for (let i1 = 1; i1 <= s.length; i1++) {
         for (let i2 = 1; i2 <= p.length; i2++) {
         // for (const i2 in dp[i1]) {
@@ -32,11 +31,11 @@ var isMatch = function(s, p) {
             } else if ('*' == p[i2-1] && ((dp[i1-1][i2] == 1 && [s[i1-1], '.'].includes(p[i2-2])) || dp[i1][i2-2] == 1)) {
                 dp[i1][i2] = 1;
             }
-            console.log([s[i1-1], '.'].includes(p[i2-1]), dp[i1-1][i2] == 1, ('*' == p[i2-1] && dp[i1][i2-2] == 1));
-            console.log(s[i1-1], p[i2-1], dp[i1])
+            // console.log([s[i1-1], '.'].includes(p[i2-1]), dp[i1-1][i2] == 1, ('*' == p[i2-1] && dp[i1][i2-2] == 1));
+            // console.log(s[i1-1], p[i2-1], dp[i1])
         }
     }
-    console.log(dp);
-    console.log(dp[s.length][p.length]?true:false);
+    // console.log(dp);
+    // console.log(dp[s.length][p.length]?true:false);
     return dp[s.length][p.length]?true:false;
 };
