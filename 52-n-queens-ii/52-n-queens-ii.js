@@ -23,10 +23,10 @@ var totalNQueens = function(n) {
 };
 
 var dfs = function(location = [0, 0], map = [], depth = 0, count = 0) {
-    const currentMap = map.filter(e => ((e[0] > location[0]) || (e[0] == location[0] && e[1] > location[1]) )
+    const currentMap = map.filter(e => 
+                                  ((e[0] > location[0]) || (e[0] == location[0] && e[1] > location[1]))
                                   && e[0] != location[0] && e[1] != location[1]
                                   && Math.abs(location[0] - e[0]) != Math.abs(location[1] - e[1]));
-    
     // console.log('currentMap:', currentMap, location, depth);
     let currentCount = count;
     if (currentMap.length > 0) {
@@ -34,16 +34,9 @@ var dfs = function(location = [0, 0], map = [], depth = 0, count = 0) {
             // console.log(currentCount);
             currentCount++;
         } else {
-            currentCount += currentMap.map(e => {
-                return dfs(e, currentMap, depth - 1, currentCount);
-            }).reduce((p, c) => p + c, 0);
-//             while (true) {
-//                 if () {
-//                     currentCount += dfs();
-//                 } else {
-
-//                 }
-//             }   
+            currentCount += currentMap
+                .map(e => dfs(e, currentMap, depth - 1, currentCount))
+                .reduce((p, c) => p + c, 0);
         }
     }
     // console.log(depth == )
