@@ -26,5 +26,5 @@ var minimumTotal = function(triangle) {
         temp = temp2;
     }
     // console.log(temp);
-    return Math.min(...temp.flat());
+    return Math.min(...temp);
 };
