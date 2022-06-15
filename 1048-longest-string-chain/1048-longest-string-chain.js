@@ -27,11 +27,13 @@ var longestStrChain = function(words) {
         for (const word2 of orderedWords[word.length - 1]) {
             let isChained = false;
             for (let i = 0; i < word.length; i++) {
-                const wordArr = word.split('');
-                wordArr.splice(i, 1);
+                // const wordArr = word.split('');
+                // wordArr.splice(i, 1);
+                const diffString = word.slice(0, i) + word.slice(i + 1);
                 // console.log();
                 // console.log(word.split('').splice(i, 1).join(''));
-                if (wordArr.join('') == word2) {
+                // if (wordArr.join('') == word2) {
+                if (diffString == word2) {
                     isChained = true;
                     break;
                 }
