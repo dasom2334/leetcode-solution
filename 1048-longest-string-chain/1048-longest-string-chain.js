@@ -13,7 +13,6 @@ var longestStrChain = function(words) {
         }   
     });
     
-    // const maxs = sortedWords.filter(e => e.length == sortedWords[0].length);
     
     let lengths = {};
     
@@ -27,12 +26,7 @@ var longestStrChain = function(words) {
         for (const word2 of orderedWords[word.length - 1]) {
             let isChained = false;
             for (let i = 0; i < word.length; i++) {
-                // const wordArr = word.split('');
-                // wordArr.splice(i, 1);
                 const diffString = word.slice(0, i) + word.slice(i + 1);
-                // console.log();
-                // console.log(word.split('').splice(i, 1).join(''));
-                // if (wordArr.join('') == word2) {
                 if (diffString == word2) {
                     isChained = true;
                     break;
@@ -41,14 +35,8 @@ var longestStrChain = function(words) {
             if (isChained) {
                 lengths[word2] = Math.max(lengths[word] + 1, lengths[word2]);
             }
-            // console.log(word.split(word2).join(''));
-            // const isChained = word.split(word2).join('').length == 1;
-            // console.log(isChained, word, word2);
         }
     }
     
-    // console.log(orderedWords);
-    // console.log(sortedWords);
-    // console.log(lengths);
     return Math.max(...Object.values(lengths));
 };
