@@ -34,8 +34,8 @@ var threeSum = function(nums) {
             }
         }
     }
-    result = new Set(result);
+    // result = new Set(result);
     // result = new Set(result.map(e => e1.map((e1, i1) => onums[i1])));
     // console.log(result);
-    return [...result].map(e => e.split(','));
+    return result.map(e => e.split(','));
 };
