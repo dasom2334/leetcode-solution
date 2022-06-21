@@ -14,16 +14,13 @@ var furthestBuilding = function(heights, bricks, ladders) {
     let ls = ob
             .splice(ob.length - ladders)
             .map(e => (e <= 0 ? 0 : e));
+    ob = ob.filter(e => e > 0);
+    // console.log(ladders, ls.length);
     let lsum = ls.reduce((a, b) => a + b, 0);
     let last = 0;
     let next = 0;
-    // console.log(ls);
     let isLadderOut = -1;
     while(buildings.length > 0) {
-        // console.log(ob);
-        // console.log(sum, lsum, sum - lsum, last, bricks, buildings.length, ls);
-        
-        
         if (sum - lsum <= bricks) break;
         
         const olast = buildings.pop();
@@ -32,7 +29,6 @@ var furthestBuilding = function(heights, bricks, ladders) {
         sum -= last;
         isLadderOut = ls.indexOf(olast);
         if (isLadderOut != -1) {
-            // console.log(isLadderOut);
             if (ob.length > 0) {
                 next = ob.pop()
             } else {
@@ -40,13 +36,10 @@ var furthestBuilding = function(heights, bricks, ladders) {
             }
             // console.log(next);
             ls[isLadderOut] = next;
-            // ls.splice(isLadderOut, 1, next);
-            // ls.push(next);
             lsum = lsum + next - last;
         } else {
             const i = ob.indexOf(olast);
             if (i != -1) ob.splice(i, 1);
-            // console.log(i);
         }
     }
     return buildings.length - 1;
