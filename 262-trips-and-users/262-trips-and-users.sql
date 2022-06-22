@@ -1,6 +1,6 @@
 # Write your MySQL query statement below
 SELECT T.request_at AS Day
-    , ROUND(SUM(IF(T.status = 'completed', 0, 1)) / COUNT(*), 2) AS 'Cancellation Rate'
+    , ROUND(SUM(CASE WHEN T.status != 'completed' then 1 else 0 end) / COUNT(*), 2) AS 'Cancellation Rate'
     # , SUM(CASE WHEN T.status != 'completed' then 1 else 0 end) , SUM(CASE WHEN T.status = 'completed' then 1 else 0 end)
     # , COUNT(*)
 FROM TRIPS AS T
