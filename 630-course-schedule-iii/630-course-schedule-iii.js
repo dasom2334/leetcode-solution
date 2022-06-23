@@ -6,25 +6,19 @@ var scheduleCourse = function(courses) {
     let day = 0;
     let taken = [];
     const oc = courses.sort((a, b) => a[1] - b[1]);
-    // console.log(oc);
     for (const c of oc) {
         if (day + c[0] <= c[1]) {
             pushTaken(taken, c);
             day += c[0]
         } else if (taken.length > 0) {
             const lt = taken[taken.length - 1];
-            // const td = day - lt[0] + c[0];
             if (lt[0] > c[0]) {
                 day = day - lt[0] + c[0];
                 taken.pop();
                 pushTaken(taken, c);
-                // taken.push(c);
             }
         }
-        // console.log(taken);
     }
-    // console.log(taken);
-    // console.log(day);
     return taken.length;
 };
 
