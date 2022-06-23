@@ -13,9 +13,9 @@ var scheduleCourse = function(courses) {
             day += c[0]
         } else if (taken.length > 0) {
             const lt = taken[taken.length - 1];
-            const td = day - lt[0] + c[0];
-            if (lt[0] > c[0] && td <= c[1]) {
-                day = td;
+            // const td = day - lt[0] + c[0];
+            if (lt[0] > c[0]) {
+                day = day - lt[0] + c[0];
                 taken.pop();
                 pushTaken(taken, c);
                 // taken.push(c);
