@@ -21,7 +21,7 @@ var isPossible = function(target) {
             [ot[i-1], ot[i]] = [ot[i], ot[i-1]];
             i--;
         }
-        console.log(ot, x, max, before);
+        // console.log(ot, x, max, before);
         x += before;
     }
     
