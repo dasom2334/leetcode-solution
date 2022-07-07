@@ -10,7 +10,7 @@ var isInterleave = function(s1, s2, s3) {
     let toVisit = [[0,0]];
     
     while(toVisit.length > 0) {
-        const c = toVisit.shift();
+        const c = toVisit.pop();
         const cs = c.join();
         if (!visited.includes(cs)) {
             // console.log(c);
