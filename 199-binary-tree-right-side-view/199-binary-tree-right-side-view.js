@@ -12,7 +12,6 @@
  */
 var rightSideView = function(root) {
     let result = [];
-    let visited = {};
     
     let toVisit = [[0, root]];
     
@@ -20,15 +19,10 @@ var rightSideView = function(root) {
     while (toVisit.length > 0) {
         
         const c = toVisit.pop();
-        const dAr = visited[c[0]] ?? [];
-        if (c[1] !== null && !dAr.includes(c[1])) {
-            visited[c[0]] = [...dAr, c[1]]; 
+        if (c[1] !== null) {
+            result[c[0]] = c[1].val; 
             toVisit = [...toVisit, [c[0]+1, c[1].right], [c[0]+1, c[1].left]];
         }
-    }
-    // console.log(visited)
-    for(const [depth, nodes] of Object.entries(visited)) {
-        result.push(nodes.pop().val);
     }
     return result;
 };
