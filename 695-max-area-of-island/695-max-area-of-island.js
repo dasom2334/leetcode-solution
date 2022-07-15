@@ -10,7 +10,7 @@ var maxAreaOfIsland = function(grid) {
     const fs = (v, tv) => {
         let count = 0;
         while(tv.length > 0) {
-            const c = tv.shift();
+            const c = tv.pop();
             const cs = c.join(',');
             if (!v.includes(cs) && grid[c[0]][c[1]] == 1){
                 v.push(cs);
