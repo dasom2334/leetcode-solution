@@ -6,7 +6,7 @@
 var numSubmatrixSumTarget = function(matrix, target) {
     let result = 0;
     let sum = 0;
-    let dp = new Array(matrix.length).fill(null).map(e => new Array(matrix[0].length).fill(0));
+    // let dp = new Array(matrix.length).fill(null).map(e => new Array(matrix[0].length).fill(0));
     for(let i = 0; i < matrix.length; i++) {
         sum = 0;
         for(let j = 0; j < matrix[0].length; j++) {
