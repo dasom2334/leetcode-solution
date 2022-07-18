@@ -24,11 +24,12 @@ var numSubmatrixSumTarget = function(matrix, target) {
     for (let m = 0; m < dp[0].length; m++) {
         let sum = 0;
         hash.clear();
+        hash.set(0, 1);
         for (let n = 0; n < dp.length; n++) {
             sum += dp[n][m];
-            if(sum === target) {
-                result++;
-            } 
+            // if(sum === target) {
+            //     result++;
+            // } 
             if(hash.has(sum - target)){
                 result += hash.get(sum - target);
             }
