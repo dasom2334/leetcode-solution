@@ -19,11 +19,11 @@ var numSubmatrixSumTarget = function(matrix, target) {
     }
     // console.log(dp);
     dp = dp.map(e => e.flat());
-    
+    let hash = new Map();
     // console.log(dp);
     for (let m = 0; m < dp[0].length; m++) {
         let sum = 0;
-        let hash = new Map();
+        hash.clear();
         for (let n = 0; n < dp.length; n++) {
             sum += dp[n][m];
             if(sum === target) {
