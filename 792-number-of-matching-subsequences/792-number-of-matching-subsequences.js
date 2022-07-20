@@ -6,8 +6,8 @@
 var numMatchingSubseq = function(s, words) {
     let map = new Map();
     let result = 0;
-    const sw = words.sort((a, b) => b.length - a.length);
-    for (const word of sw) {
+    // const sw = words.sort((a, b) => b.length - a.length);
+    for (const word of words) {
         if (map.get(word)) {
             result++;
         } else {
