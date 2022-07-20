@@ -20,11 +20,11 @@ var numMatchingSubseq = function(s, words) {
                 
             }
             if (si !== -1) {
-                for(let i = word.length - 1; i >= 0; i--) {
-                    const w = word.slice(0, i);
-                    if (map.get(w)) break;
-                    map.set(w, 1);   
-                }
+                // for(let i = word.length - 1; i >= 0; i--) {
+                //     const w = word.slice(0, i);
+                //     if (map.get(w)) break;
+                //     map.set(w, 1);   
+                // }
                 result++;
             }
         }
