@@ -8,9 +8,9 @@ var numMatchingSubseq = function(s, words) {
     let result = 0;
     // const sw = words.sort((a, b) => b.length - a.length);
     for (const word of words) {
-        if (map.get(word)) {
-            result++;
-        } else {
+        // if (map.get(word)) {
+        //     result++;
+        // } else {
             // let r = false;
             let si = s.indexOf(word[0]);
             let wi = 1;
@@ -27,7 +27,7 @@ var numMatchingSubseq = function(s, words) {
                 // }
                 result++;
             }
-        }
+        // }
         
     }
     
