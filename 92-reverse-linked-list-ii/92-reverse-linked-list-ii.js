@@ -20,18 +20,41 @@ var reverseBetween = function(head, left, right) {
         order++;
     }
     // console.log(order);
-    while (order <= right) {
+    
+    const range = right - left + 1;
+    const rh = range / 2;
+    while (order < left + ~~rh) {
         list.push(node);
         node = node.next;
         order++;
     }
-    // console.log(list);
-    for (let i = 0; i < list.length/2; i++) {
-        let temp = list[i].val;
-        list[i].val = list[list.length - i - 1].val;
-        list[list.length - i - 1].val = temp;
+    
+    if (rh !== ~~rh) {
+        node = node.next;
+        order++;
     }
-    // console.log(list);
+    while (order <= right) {
+        let temp = node.val;
+        const n = list.pop();
+        node.val = n.val;
+        n.val = temp;
+        node = node.next;
+        order++;
+    }
+    
+    
+//     while (order <= right) {
+//         list.push(node);
+//         node = node.next;
+//         order++;
+//     }
+//     // console.log(list);
+//     for (let i = 0; i < list.length/2; i++) {
+//         let temp = list[i].val;
+//         list[i].val = list[list.length - i - 1].val;
+//         list[list.length - i - 1].val = temp;
+//     }
+//     // console.log(list);
     
     return head;
 };
