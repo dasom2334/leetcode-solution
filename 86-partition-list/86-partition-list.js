@@ -21,15 +21,13 @@ var partition = function(head, x) {
         bnode = bnode.next;
     }
     node = bnode.next;
+    if (!node) return root.next;
     less = bnode;
-    while(node && node.next) {
+    while(node.next) {
         if (node.val < x) {
-            
             bnode.next = node.next;
-            
             node.next = less.next;
             less.next = node;
-            
             less = less.next;
             node = bnode.next;
         } else {
@@ -39,10 +37,9 @@ var partition = function(head, x) {
 
     }
     
-    if (node && node.val < x) {
+    if (node.val < x) {
         let tempNode = node;
         bnode.next = null;
-
         tempNode.next = less.next;
         less.next = tempNode;
         less = less.next;
