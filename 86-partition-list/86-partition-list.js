@@ -21,8 +21,8 @@ var partition = function(head, x) {
         bnode = bnode.next;
     }
     node = bnode.next;
-    less = bnode;
     if (!node) return root.next;
+    less = bnode;
     while(node.next) {
         if (node.val < x) {
             
