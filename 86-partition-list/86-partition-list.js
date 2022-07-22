@@ -11,6 +11,53 @@
  * @return {ListNode}
  */
 var partition = function(head, x) {
+    if (!head || !head.next) return head;
+    let root = new ListNode();
+    let less = root;
+    less.next = head;
+    let bnode = less;
+    let node = head;
+    while (bnode.next && bnode.next.val < x) {
+        bnode = bnode.next;
+    }
+    node = bnode.next;
+    less = bnode;
+        // console.log(root, less, node, '----');
+    while(node && node.next) {
+        if (node.val < x) {
+            
+            // console.log(root, less, bnode, node);
+            bnode.next = node.next;
+            
+            node.next = less.next;
+            less.next = node;
+            // console.log(root, less, bnode, node);
+            
+            less = less.next;
+            node = bnode.next;
+            // console.log(root, less, bnode, node);
+        } else {
+            bnode = bnode.next;
+            node = node.next;    
+        }
+
+        // console.log(root, less, bnode, node, '----');
+    }
+    
+    if (node && node.val < x) {
+        let tempNode = node;
+        bnode.next = null;
+
+        tempNode.next = less.next;
+        less.next = tempNode;
+        less = less.next;
+        node = bnode.next;
+    } 
+    return root.next;
+};
+
+
+var partitionOld = function(head, x) {
     let p1 = new ListNode();
     let p2 = new ListNode();
     let pn1 = p1;
