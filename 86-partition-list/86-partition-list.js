@@ -22,29 +22,25 @@ var partition = function(head, x) {
     }
     node = bnode.next;
     less = bnode;
-        // console.log(root, less, node, '----');
-    while(node && node.next) {
+    if (!node) return root.next;
+    while(node.next) {
         if (node.val < x) {
             
-            // console.log(root, less, bnode, node);
             bnode.next = node.next;
             
             node.next = less.next;
             less.next = node;
-            // console.log(root, less, bnode, node);
             
             less = less.next;
             node = bnode.next;
-            // console.log(root, less, bnode, node);
         } else {
             bnode = bnode.next;
             node = node.next;    
         }
 
-        // console.log(root, less, bnode, node, '----');
     }
     
-    if (node && node.val < x) {
+    if (node.val < x) {
         let tempNode = node;
         bnode.next = null;
 
