@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
-var searchRangeNew = function(nums, target) {
+var searchRange = function(nums, target) {
     const result = [-1, -1];
     const results = nums.map((e, i) => {
         if (e == target) {
@@ -19,7 +19,7 @@ var searchRangeNew = function(nums, target) {
     return result;
 };
 
-var searchRange = function(nums, target) {
+var searchRangeOld = function(nums, target) {
     let result = [-1, -1];
     
     let l = 0;
