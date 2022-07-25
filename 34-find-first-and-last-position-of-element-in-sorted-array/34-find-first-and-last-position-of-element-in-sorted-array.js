@@ -4,6 +4,22 @@
  * @return {number[]}
  */
 var searchRange = function(nums, target) {
+    const result = [-1, -1];
+    const results = nums.map((e, i) => {
+        if (e == target) {
+            return i;
+        } else {
+            return -1;
+        }
+    }).filter(e => e !== -1);
+    if (results.length > 0) {
+        result[0] = results[0];
+        result[1] = results.pop();
+    }
+    return result;
+};
+
+var searchRangeOld = function(nums, target) {
     let result = [-1, -1];
     
     let l = 0;
