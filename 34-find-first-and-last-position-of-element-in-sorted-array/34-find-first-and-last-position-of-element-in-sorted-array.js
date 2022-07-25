@@ -5,16 +5,16 @@
  */
 var searchRange = function(nums, target) {
     const result = [-1, -1];
-    nums = nums.map((e, i) => {
+    const results = nums.map((e, i) => {
         if (e == target) {
             return i;
         } else {
             return -1;
         }
     }).filter(e => e !== -1);
-    if (nums.length > 0) {
-        result[0] = nums[0];
-        result[1] = nums.pop();
+    if (results.length > 0) {
+        result[0] = results[0];
+        result[1] = results.pop();
     }
     return result;
 };
