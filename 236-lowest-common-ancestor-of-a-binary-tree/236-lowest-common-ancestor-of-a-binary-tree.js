@@ -26,8 +26,12 @@ var lowestCommonAncestor = function(root, p, q) {
             }
         }        
         const l = (node.left)? dfs(node.left, stack):null;
+        
+        if (l) {
+            return true;
+        }
         const r = (node.right)? dfs(node.right, stack):null;
-        if (l || r) {
+        if (r) {
             return true;
         }
         stack.pop();
@@ -37,6 +41,5 @@ var lowestCommonAncestor = function(root, p, q) {
         
     }
     dfs(root);
-    // console.log(result);
     return stack[result];
 };
