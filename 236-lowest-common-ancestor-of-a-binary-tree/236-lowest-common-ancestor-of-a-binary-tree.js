@@ -12,25 +12,31 @@
  * @return {TreeNode}
  */
 var lowestCommonAncestor = function(root, p, q) {
-    let toVisit = [[root, ""]];
-    let [pi, qi] = [-1, -1];
-    while((pi === -1 || qi === -1)) {
-        const n = toVisit.pop();
-        if (n[0]) {
-            toVisit = [...toVisit, [n[0].left, n[1] + "l"], [n[0].right, n[1] + "r"]];
-            if (n[0] == p) pi = n[1];
-            if (n[0] == q) qi = n[1];
+    let result = -1;
+    
+    let stack = [];
+    const dfs = (node) => {
+        stack.push(node);
+
+        if (node == p || node == q) {
+            if (result === -1) {
+                result = stack.length - 1;   
+            } else {
+                return true;
+            }
+        }        
+        const l = (node.left)? dfs(node.left, stack):null;
+        const r = (node.right)? dfs(node.right, stack):null;
+        if (l || r) {
+            return true;
         }
-    }
-    let index = 0;
-    let result = root;
-    while (pi[index] == qi[index]) {
-        if (pi[index] == "l") {
-            result = result.left;
-        } else {
-            result = result.right;
+        stack.pop();
+        if (result !== -1 && stack.length < result + 1) {
+            result = stack.length - 1;
         }
-        index++;
+        
     }
-    return result;
+    dfs(root);
+    // console.log(result);
+    return stack[result];
 };
