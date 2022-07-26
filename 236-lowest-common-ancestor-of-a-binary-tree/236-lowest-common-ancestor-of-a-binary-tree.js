@@ -31,7 +31,7 @@ var lowestCommonAncestor = function(root, p, q) {
             return true;
         }
         stack.pop();
-        if (result !== -1 && stack.length < result + 1) {
+        if (stack.length < result + 1) {
             result = stack.length - 1;
         }
         
