@@ -25,13 +25,11 @@ var lowestCommonAncestor = function(root, p, q) {
                 return true;
             }
         }        
-        const l = (node.left)? dfs(node.left, stack):null;
         
-        if (l) {
+        if ((node.left)?dfs(node.left, stack):false) {
             return true;
         }
-        const r = (node.right)? dfs(node.right, stack):null;
-        if (r) {
+        if ((node.right)?dfs(node.right, stack):false) {
             return true;
         }
         stack.pop();
