@@ -11,9 +11,25 @@
  * @return {void} Do not return anything, modify root in-place instead.
  */
 var flatten = function(root) {
+    let node = root;
+    while(node) {
+        if (node.left) {
+            let tn = node.left;
+            while(tn.right) {
+                tn = tn.right;
+            }
+            tn.right = node.right;
+            node.right = node.left;
+            node.left = null;
+        }
+        node = node.right;
+        // console.log(root);
+    }
+};
+
+var flattenGarbageLogic = function(root) {
     if (!root) return;
     const result = new TreeNode(0);
-    // let rp = result;
     let node = result;
     const dfs = (n) => {
         if (n == null) return;
@@ -22,11 +38,9 @@ var flatten = function(root) {
         
         dfs(n.left);
         dfs(n.right);
-        // console.log(result);
         
     }
     dfs(root);
-    // console.log(result, result.right);
     root.left = null;
     root.right = result.right.right;
 };
