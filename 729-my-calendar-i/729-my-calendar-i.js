@@ -26,7 +26,7 @@ MyCalendar.prototype.book = function(start, end) {
 
     if (l%2 == 1) {
       if (this.booked[l] <= start) {
-          l++
+          l++;
       } else {
           return false;
       }  
