@@ -11,7 +11,6 @@
  * @return {TreeNode}
  */
 var sortedArrayToBST = function(nums) {
-    const ri = Math.ceil((nums.length - 1)/2);
     let result = new TreeNode();
     
     
@@ -31,8 +30,6 @@ var sortedArrayToBST = function(nums) {
         
     };
     nodeBirth(result, 0, nums.length - 1);
-    
-    
     
     return result;
 };
