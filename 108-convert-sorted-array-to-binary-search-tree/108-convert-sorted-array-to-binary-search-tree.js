@@ -13,7 +13,6 @@
 var sortedArrayToBST = function(nums) {
     let result = new TreeNode();
     
-    
     const nodeBirth = (node, l, r) => {
         const i = Math.ceil((l + r)/2);
         node.val = nums[i];
