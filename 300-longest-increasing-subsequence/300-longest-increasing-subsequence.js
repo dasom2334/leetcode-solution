@@ -16,18 +16,8 @@ var lengthOfLIS = function(nums) {
             }
         }
         dp[index] = max + 1;
-        // const maxs = dp.slice(0, index).filter((e, i) => nums[i] !== nums[index]);
-        // // console.log(maxs);
-        // if (maxs.length == 0) {
-        //     dp[index] = 1;
-        // } else {
-        //     dp[index] = Math.max(...maxs) + 1;
-        // }
-        // console.log(dp);
     }
     
     
-    // console.log(onis);
-    // console.log(dp);
     return Math.max(...dp);
 };
