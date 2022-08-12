@@ -13,6 +13,22 @@
  * @return {TreeNode}
  */
 var lowestCommonAncestor = function(root, p, q) {
+    const s = Math.min(p.val, q.val);
+    const b = Math.max(p.val, q.val);
+    
+    const dfs = (node) => {
+         if (!node) {
+            return false;
+        } else if (s <= node.val && node.val <= b) {
+            return node;
+        }
+        const l = dfs(node.left);
+        const r = dfs(node.right);
+        return l || r;
+    }
+    return dfs(root);
+};
+var lowestCommonAncestorOld = function(root, p, q) {
     // console.log(root, p, q);
     // https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
     let flag = false;
