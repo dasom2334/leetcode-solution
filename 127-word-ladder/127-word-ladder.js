@@ -5,7 +5,7 @@
  * @return {number}
  */
 var ladderLength = function(beginWord, endWord, wordList) {
-     goal = wordList.indexOf(endWord);
+    const goal = wordList.indexOf(endWord);
     if (goal == -1) return 0;
     if (beginWord === endWord) return 1;
     
@@ -48,14 +48,11 @@ var ladderLength = function(beginWord, endWord, wordList) {
     let toVisit = [[beginWord, 0]];
     while(toVisit.length > 0) {
         const [word, level] = toVisit.shift();
+        if (word == endWord) return level + 1;
         if (word in levels) continue;
         levels[word] = level;
-        if (!(wordList[goal] in levels)) {
-            for (const t of links[word]) {
-                if (!levels[t]) toVisit.push([wordList[t], level + 1]);
-            }
-        } else {
-            return level + 1;
+        for (const t of links[word]) {
+            if (!levels[t]) toVisit.push([wordList[t], level + 1]);
         }
         delete links[word];
     }
