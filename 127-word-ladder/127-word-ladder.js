@@ -48,14 +48,15 @@ var ladderLength = function(beginWord, endWord, wordList) {
     let toVisit = [[beginWord, 1]];
     while(toVisit.length > 0) {
         const [word, level] = toVisit.shift();
-        if (word == endWord) return level;
         if (word in levels) continue;
         levels[word] = level;
-        for (const t of links[word]) {
-            toVisit.push([wordList[t], level + 1]);
+        if (!(wordList[goal] in levels)) {
+            for (const t of links[word]) {
+                if (!levels[t]) toVisit.push([wordList[t], level + 1]);
+            }
+        } else {
+            return level;
         }
-        // console.log(word, level)
-        delete links[word];
     }
     return result;
 };
