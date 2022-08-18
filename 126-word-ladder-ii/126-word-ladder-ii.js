@@ -71,7 +71,7 @@ var findLadders = function(beginWord, endWord, wordList) {
         //     result.push(nodes);
         //     return;
         // }
-        console.log(nodes, level);
+        // console.log(nodes, level);
         if (levels[nodes[0]] == 0) {
             if (beginWord != nodes[0]) {
                 result.push([beginWord, ...nodes]);   
