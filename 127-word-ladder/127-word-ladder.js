@@ -57,5 +57,25 @@ var ladderLength = function(beginWord, endWord, wordList) {
             }
         } 
     }
+    
+    let result2 = [];
+    const dfs = (nodes, level) => {
+        if (levels[nodes[0]] == 0) {
+            if (beginWord != nodes[0]) {
+                result2.push([beginWord, ...nodes]);   
+            } else {
+                result2.push(nodes);
+            }
+        } else {
+            for (const index of links[nodes[0]]) {
+                if (levels[wordList[index]] == level - 1) dfs([wordList[index], ...nodes], level - 1);
+            }   
+        }
+        
+    }
+    
+    dfs([endWord], levels[endWord]);
+    
+    // return result.map(e => [beginWord, ...e.map(e1 => wordList[e1])]);
     return result;
 };
