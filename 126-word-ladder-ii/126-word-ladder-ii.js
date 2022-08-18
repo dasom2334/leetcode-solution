@@ -6,10 +6,10 @@
  */
 var findLadders = function(beginWord, endWord, wordList) {
     const goal = wordList.indexOf(endWord);
-    let result = [];
-    if (goal == -1) return result;
+    if (goal == -1) return [];
     if (beginWord === endWord) return [[beginWord]]
     
+    let result = [];
     let links = {};
     
     for(let i = 0; i < wordList.length; i++) {
