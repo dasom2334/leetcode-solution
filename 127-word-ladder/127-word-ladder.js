@@ -54,7 +54,7 @@ var ladderLength = function(beginWord, endWord, wordList) {
         for (const t of links[word]) {
             if (!levels[wordList[t]]) toVisit.push([wordList[t], level + 1]);
         }
-        console.log(word, level)
+        // console.log(word, level)
         delete links[word];
     }
     return result;
