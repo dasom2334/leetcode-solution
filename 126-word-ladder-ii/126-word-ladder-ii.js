@@ -8,7 +8,6 @@ var findLadders = function(beginWord, endWord, wordList) {
     const goal = wordList.indexOf(endWord);
     let result = [];
     if (goal == -1) return result;
-    const ks = [...wordList.keys()];
     
     let links = {};
     
@@ -67,11 +66,6 @@ var findLadders = function(beginWord, endWord, wordList) {
     
     
     const dfs = (nodes, level) => {
-        // if(target == beginWord) {
-        //     result.push(nodes);
-        //     return;
-        // }
-        // console.log(nodes, level);
         if (levels[nodes[0]] == 0) {
             if (beginWord != nodes[0]) {
                 result.push([beginWord, ...nodes]);   
