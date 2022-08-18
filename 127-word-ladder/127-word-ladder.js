@@ -57,6 +57,7 @@ var ladderLength = function(beginWord, endWord, wordList) {
         } else {
             return level + 1;
         }
+        delete links[word];
     }
     return result;
 };
