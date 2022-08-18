@@ -44,12 +44,6 @@ var findLadders = function(beginWord, endWord, wordList) {
         }
     }
     
-    let wl = {};
-    
-    for (let i = 0; i < wordList.length; i++) {
-        wl[wordList[i]] = i;
-    }
-    
     let levels = {};
     let toVisit = [[beginWord, (wordList.includes(beginWord))?0:-1]];
     while(toVisit.length > 0) {
