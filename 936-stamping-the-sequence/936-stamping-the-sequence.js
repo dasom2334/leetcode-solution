@@ -25,7 +25,7 @@ var movesToStamp = function(stamp, target) {
                 for (let m = i; m < i+stamp.length; m++) {
                     str[m] = '?';
                 }
-                result = [i, ...result];
+                result.unshift(i);
                 allChange = true;
             }
         }
