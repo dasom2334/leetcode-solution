@@ -5,6 +5,29 @@
  * @return {number}
  */
 var minRefuelStops = function(target, startFuel, stations) {
+    let f = startFuel;
+    let stops = 0;
+    let q = [];
+    let idx = 0;
+    while (f < target) {
+        while (idx < stations.length && stations[idx][0] <= f) {
+            q.push(stations[idx][1]);
+            idx++;
+        }
+        // console.log(f);
+        if (!q.length) return -1;
+        q.sort((a, b) => a - b);
+        f += q.pop();
+        stops ++;
+    }
+    
+    
+    
+    return stops;
+    
+};
+
+var minRefuelStops2 = function(target, startFuel, stations) {
     let dict = {
         0:startFuel
     };
