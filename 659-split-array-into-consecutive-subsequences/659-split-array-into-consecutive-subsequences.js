@@ -30,19 +30,22 @@ var isPossible = function(nums) {
         
         // console.log(ks[i],':', map.get(ks[i]), c, q)
         if (c > 0) {
-            while (c > 0) {
-                q.push(0);
-                c--;
-            }
+            q = [...q, ...(new Array(c).fill(0))];
+            // while (c > 0) {
+            //     q.push(0);
+            //     c--;
+            // }
         } else if (c !== 0) {
-            while (c < 0) {
-                let sft = q.shift();
-                if (sft < 3) {
-                    // console.log(sft, q)
-                    return false;
-                }
-                c++;
-            }
+            const outs = q.splice(0, -c);
+            if (outs.filter(e => e < 3).length > 0) return false;
+            // while (c < 0) {
+            //     let sft = q.shift();
+            //     if (sft < 3) {
+            //         // console.log(sft, q)
+            //         return false;
+            //     }
+            //     c++;
+            // }
         }
         q = q.map(e => e + 1);
     }
