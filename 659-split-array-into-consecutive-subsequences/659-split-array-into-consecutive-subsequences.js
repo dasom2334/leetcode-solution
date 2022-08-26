@@ -5,7 +5,6 @@
 var isPossible = function(nums) {
     
     let map = new Map();
-    let dict = {};
     
     
     for (let i = 0; i < nums.length; i++) {
