@@ -44,9 +44,7 @@ var isPossible = function(nums) {
                 c++;
             }
         }
-        for (let j = 0; j < count; j++) {
-            q[j] += 1;
-        }
+        q = q.map(e => e + 1);
     }
     
     
