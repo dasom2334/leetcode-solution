@@ -3,6 +3,29 @@
  * @return {number[][]}
  */
 var diagonalSort = function(mat) {
+    let dict = {};
+    
+    
+    for (let i = 0; i < mat.length; i ++) {
+        for (let j = 0; j < mat[0].length; j++) {
+            if (!((i-j) in dict)) dict[i-j] = [];
+            dict[i-j] = [mat[i][j], ...dict[i-j]];
+        }
+    }
+    for (const k in dict) {
+        dict[k].sort((a, b) => b - a);
+    }
+        
+    for (let i = 0; i < mat.length; i ++) {
+        for (let j = 0; j < mat[0].length; j++) {
+            mat[i][j] = dict[i-j].pop();
+        }
+    }
+        
+    
+    return mat;
+};
+var diagonalSort2 = function(mat) {
     const qs = (l, r) => {
         // console.log(l,r)
         if (l[0] < r[0] && l[1] < r[1]) {
