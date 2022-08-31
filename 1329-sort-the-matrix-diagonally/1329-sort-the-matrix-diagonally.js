@@ -70,7 +70,7 @@ var diagonalSort = function(mat) {
         } else {
             fix = 0;
         }
-        console.log(min - fix , min + i - fix, fix);
+        // console.log(min - fix , min + i - fix, fix);
         qs([0,i], [min - fix , min + i - fix]);
     }
     l = mat.length - 1;
@@ -82,7 +82,7 @@ var diagonalSort = function(mat) {
         } else {
             fix = 0;
         }
-        console.log(min + i - fix, min - fix, fix);
+        // console.log(min + i - fix, min - fix, fix);
         qs([i, 0], [min + i - fix, min - fix]);
     }
     
