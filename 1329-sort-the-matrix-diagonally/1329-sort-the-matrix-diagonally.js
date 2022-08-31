@@ -39,29 +39,29 @@ var diagonalSort = function(mat) {
     
     const min = Math.min(mat.length - 1, mat[0].length - 1);
     qs([0,0], new Array(2).fill(min));
-        let fix = 0;
-        let l = mat[0].length - 1;
-        for (let i = 1; i < mat[0].length; i++) {
-            if (min + i > l) {
-                fix = min + i - l;
-            } else {
-                fix = 0;
-            }
-            console.log(min - fix , min + i - fix, fix);
-            qs([0,i], [min - fix , min + i - fix]);
+    let fix = 0;
+    let l = mat[0].length - 1;
+    for (let i = 1; i < mat[0].length; i++) {
+        if (min + i > l) {
+            fix = min + i - l;
+        } else {
+            fix = 0;
         }
-        l = mat.length - 1;
-        for (let i = 1; i < mat.length; i++) {
-            // console.log(([i, 0], [mat.length - 1, mat[0].length - 1 - i]))
-            
-            if (min + i > l) {
-                fix = min + i - l;
-            } else {
-                fix = 0;
-            }
-            console.log(min + i - fix, min - fix, fix);
-            qs([i, 0], [min + i - fix, min - fix]);
+        console.log(min - fix , min + i - fix, fix);
+        qs([0,i], [min - fix , min + i - fix]);
+    }
+    l = mat.length - 1;
+    for (let i = 1; i < mat.length; i++) {
+        // console.log(([i, 0], [mat.length - 1, mat[0].length - 1 - i]))
+
+        if (min + i > l) {
+            fix = min + i - l;
+        } else {
+            fix = 0;
         }
+        console.log(min + i - fix, min - fix, fix);
+        qs([i, 0], [min + i - fix, min - fix]);
+    }
     
     // console.log('----------')
     // console.log(mat);
