@@ -2,7 +2,7 @@
  * @param {number[][]} mat
  * @return {number[][]}
  */
-var diagonalSort = function(mat) {
+var diagonalSort1 = function(mat) {
     let dict = {};
     
     
@@ -25,7 +25,7 @@ var diagonalSort = function(mat) {
     
     return mat;
 };
-var diagonalSort2 = function(mat) {
+var diagonalSort = function(mat) {
     const qs = (l, r) => {
         // console.log(l,r)
         if (l[0] < r[0] && l[1] < r[1]) {
