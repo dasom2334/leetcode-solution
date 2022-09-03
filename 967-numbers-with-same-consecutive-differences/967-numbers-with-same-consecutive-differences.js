@@ -31,5 +31,5 @@ var numsSameConsecDiff = function(n, k) {
     }
     
     
-    return [...new Set(set)];
+    return [... set];
 };
