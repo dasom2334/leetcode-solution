@@ -4,7 +4,7 @@
  * @return {number[]}
  */
 var numsSameConsecDiff = function(n, k) {
-    let result = [];
+    let set = new Set();
     
     let tv = '123456789'.split('');
     
@@ -13,7 +13,7 @@ var numsSameConsecDiff = function(n, k) {
         const c = tv.shift();
         
         if (c.length == n) {
-            result.push(c);
+            set.add(c);
             continue;
         }
         
@@ -31,5 +31,5 @@ var numsSameConsecDiff = function(n, k) {
     }
     
     
-    return [...new Set(result)];
+    return [...new Set(set)];
 };
