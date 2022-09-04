@@ -13,21 +13,38 @@
 var verticalTraversal = function(root) {
     let dict = {};
     
-    let tv = [[root, 0, 0]];
-    while (tv.length > 0) {
-        const c = tv.shift();
+    const dfs = (node, row, col) => {
         
-        if (c[0] == null) continue;
+        if (node == null) return;
         
-        if (!(c[2] in dict)) dict[c[2]] = {};
-        if (!(c[1] in dict[c[2]])) {
-            dict[c[2]][c[1]] = [];
+        
+        if (!(col in dict)) dict[col] = {};
+        if (!(row in dict[col])) {
+            dict[col][row] = [];
         }
-        dict[c[2]][c[1]].push(c[0].val);
+        dict[col][row].push(node.val);
         
-        
-        tv = [...tv, [c[0].left, c[1] + 1, c[2] - 1], [c[0].right, c[1] + 1, c[2] + 1]];
+        dfs(node.left, row+1, col-1);
+        dfs(node.right, row+1, col+1);
     }
+    dfs(root, 0, 0);
+//     let tv = [[root, 0, 0]];
+//     while (tv.length > 0) {
+//         const c = tv.shift();
+        
+//         if (c[0] == null) continue;
+        
+//         if (!(c[2] in dict)) dict[c[2]] = {};
+//         if (!(c[1] in dict[c[2]])) {
+//             dict[c[2]][c[1]] = [];
+//         }
+//         dict[c[2]][c[1]].push(c[0].val);
+        
+        
+//         tv = [...tv, [c[0].left, c[1] + 1, c[2] - 1], [c[0].right, c[1] + 1, c[2] + 1]];
+//     }
+    
+    
     // console.log(dict);
     // console.log(Object.keys(dict).sort((a, b) => a - b).map(e => Object.values(dict[e]).map(e1 => e1.sort((a, b) => a - b)).flat()));
     return Object.keys(dict).sort((a, b) => a - b).map(e => Object.values(dict[e]).map(e1 => e1.sort((a, b) => a - b)).flat());
