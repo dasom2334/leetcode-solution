@@ -21,7 +21,6 @@ var pruneTree = function(root) {
             if (node.val == 1) return true;
             else return false;
         }
-        // console.log(root);
         return true;
     };
     
