@@ -22,7 +22,7 @@ var pruneTree = function(root) {
             else return false;
         }
         // console.log(root);
-        return (node.left != null || node.right != null)?true:false;
+        return true;
     };
     
     return (dfs(root)) ? root:null;
