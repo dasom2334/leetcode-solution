@@ -1,5 +1,12 @@
-class Solution:
-    def maxPerformance(self, n: int, speed: List[int], efficiency: List[int], k: int) -> int:
+class Solution(object):
+    def maxPerformance(self, n, speed, efficiency, k):
+        """
+        :type n: int
+        :type speed: List[int]
+        :type efficiency: List[int]
+        :type k: int
+        :rtype: int
+        """
         result = 0
         speedSum = 0
         
@@ -15,5 +22,4 @@ class Solution:
         
         
         return result % 1000000007
-        
         
