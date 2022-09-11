@@ -14,11 +14,11 @@ var maxPerformance = function(n, speed, efficiency, k) {
     
     for (let i = 0; i < n; i++) {
         heap.enqueue(speed[rank[i]]);
-        speedSum = speedSum + BigInt(speed[rank[i]]);
+        speedSum += BigInt(speed[rank[i]]);
         if (heap.size() > k) {
-            speedSum = speedSum - BigInt(heap.dequeue().element);
+            speedSum -= BigInt(heap.dequeue().element);
         }
-        let perf = speedSum * BigInt(efficiency[rank[i]])
+        let perf = speedSum * BigInt(efficiency[rank[i]]);
         if (result < perf) result = perf;
     }
     
