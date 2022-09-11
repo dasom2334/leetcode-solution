@@ -1,18 +1,15 @@
-from queue import PriorityQueue
-
-
 class Solution:
     def maxPerformance(self, n: int, speed: List[int], efficiency: List[int], k: int) -> int:
         result = 0
         speedSum = 0
         
-        heap = PriorityQueue()
+        heap = []
         
         for eff, spd in sorted(zip(efficiency, speed), reverse=True):
             speedSum += spd
-            heap.put(spd)
-            if heap.qsize() > k:
-                speedSum -= heap.get()
+            heapq.heappush(heap, spd)
+            if len(heap) > k:
+                speedSum -= heapq.heappop(heap)
             
             result = max(result, speedSum * eff)
         
