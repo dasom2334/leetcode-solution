@@ -14,7 +14,6 @@ var bagOfTokensScore = function(tokens, power) {
     
     let i = 0;
     let j = tokens.length - 1;
-    // console.log(ts);
     while (i <= j) {
         // console.log(p,s,i,j, ts[i],ts[j], result);
         while (i < j && p < ts[i] && s > 0) {
