@@ -21,11 +21,9 @@ var bagOfTokensScore = function(tokens, power) {
             j--;
         }
         if (p < ts[i]) break;
-        
         p -= ts[i];
         s++;        
         i++;
-        
         result = Math.max(s, result);
     }
     
