@@ -7,7 +7,6 @@ var bagOfTokensScore = function(tokens, power) {
     if (tokens.length == 0) return 0;
     if (tokens.length == 1) return (tokens[0] < power)?1:0;
     let result = 0;
-    
     const ts = tokens.sort((a, b) => a - b);
     let s = 0;
     let p = power;
@@ -24,6 +23,7 @@ var bagOfTokensScore = function(tokens, power) {
         p -= ts[i];
         s++;        
         i++;
+        
         result = Math.max(s, result);
     }
     
