@@ -23,7 +23,6 @@ var bagOfTokensScore = function(tokens, power) {
         p -= ts[i];
         s++;        
         i++;
-        
         result = Math.max(s, result);
     }
     
