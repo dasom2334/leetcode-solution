@@ -28,7 +28,6 @@ var validUtf8 = function(data) {
             nob--;
         }
         
-        // console.log(nob);
         
     }
     
