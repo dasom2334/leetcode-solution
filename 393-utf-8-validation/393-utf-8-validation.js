@@ -27,7 +27,6 @@ var validUtf8 = function(data) {
             nob--;
         }
         
-        
     }
     
     return nob == 0;
