@@ -4,7 +4,6 @@
  */
 var validUtf8 = function(data) {
     let result = false;
-    
     let nob = 0;
     
     for (const d of data) {
