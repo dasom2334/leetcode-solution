@@ -9,7 +9,6 @@ var validUtf8 = function(data) {
     
     for (const d of data) {
         const bin = toBinary(d)
-        // console.log(bin);
         if (nob == 0) {
             for (const bit of bin) {
                 if (bit == 1) {
