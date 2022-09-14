@@ -11,7 +11,6 @@
  * @return {number}
  */
 var pseudoPalindromicPaths  = function(root) {
-    
     const dfs = (node, dict = {}) => {
         if (node == null) return 0;
         
@@ -29,7 +28,6 @@ var pseudoPalindromicPaths  = function(root) {
         dict[node.val]--;
         return output;
     };
-    
     return dfs(root);
 };
 
@@ -40,5 +38,4 @@ function isPalindromic (dict) {
     const odds = values.filter(e => e % 2 == 1).length;
     
     return centerCount - odds >= 0;
-    
 }
