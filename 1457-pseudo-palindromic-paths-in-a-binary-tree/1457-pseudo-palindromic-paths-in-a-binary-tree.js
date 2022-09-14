@@ -11,13 +11,12 @@
  * @return {number}
  */
 var pseudoPalindromicPaths  = function(root) {
-    let numberDict = {};
     
     const dfs = (node, dict) => {
         if (node == null) return 0;
         
-        if (!(node.val in numberDict)) numberDict[node.val] = 1;
-        else numberDict[node.val]++;
+        if (!(node.val in dict)) dict[node.val] = 1;
+        else dict[node.val]++;
         
         let output = 0;
         if (node.left == null && node.right == null) {
@@ -27,11 +26,11 @@ var pseudoPalindromicPaths  = function(root) {
             output += dfs(node.right, dict);
         }
         
-        numberDict[node.val]--;
+        dict[node.val]--;
         return output;
     };
     
-    return dfs(root, numberDict);
+    return dfs(root, {});
 };
 
 function isPalindromic (dict) {
