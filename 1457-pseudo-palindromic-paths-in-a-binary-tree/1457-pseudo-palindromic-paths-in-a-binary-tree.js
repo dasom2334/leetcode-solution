@@ -12,7 +12,7 @@
  */
 var pseudoPalindromicPaths  = function(root) {
     
-    const dfs = (node, dict) => {
+    const dfs = (node, dict = {}) => {
         if (node == null) return 0;
         
         if (!(node.val in dict)) dict[node.val] = 1;
@@ -30,7 +30,7 @@ var pseudoPalindromicPaths  = function(root) {
         return output;
     };
     
-    return dfs(root, {});
+    return dfs(root);
 };
 
 function isPalindromic (dict) {
