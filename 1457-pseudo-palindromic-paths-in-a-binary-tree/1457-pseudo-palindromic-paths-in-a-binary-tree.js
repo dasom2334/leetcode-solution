@@ -19,7 +19,7 @@ var pseudoPalindromicPaths  = function(root) {
         
         let output = 0;
         if (node.left == null && node.right == null) {
-            output += isPalindromic(dict)?1:0;
+            output += Object.values(dict).filter(e => e % 2 == 1).length <= 1 ?1:0;
         } else {
             output += dfs(node.left, dict);
             output += dfs(node.right, dict);
@@ -31,6 +31,3 @@ var pseudoPalindromicPaths  = function(root) {
     return dfs(root);
 };
 
-function isPalindromic (dict) {
-    return Object.values(dict).filter(e => e % 2 == 1).length <= 1;
-}
