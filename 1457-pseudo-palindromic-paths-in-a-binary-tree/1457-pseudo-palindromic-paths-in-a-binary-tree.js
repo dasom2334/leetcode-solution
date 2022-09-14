@@ -32,10 +32,5 @@ var pseudoPalindromicPaths  = function(root) {
 };
 
 function isPalindromic (dict) {
-    const values = Object.values(dict);
-    const totalCount = values.reduce((a, b) => a + b, 0);
-    const centerCount = (totalCount % 2 == 0)? 0 : 1;
-    const odds = values.filter(e => e % 2 == 1).length;
-    
-    return centerCount - odds >= 0;
+    return Object.values(dict).filter(e => e % 2 == 1).length <= 1;
 }
