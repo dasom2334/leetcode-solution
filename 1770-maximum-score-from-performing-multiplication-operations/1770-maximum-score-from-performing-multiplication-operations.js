@@ -13,5 +13,6 @@ var maximumScore = function(nums, multipliers) {
             return Math.max(left, right);
         });
     }
+    
     return Math.max(...dp);
 };
