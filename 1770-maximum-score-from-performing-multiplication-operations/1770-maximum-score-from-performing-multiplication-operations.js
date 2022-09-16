@@ -12,7 +12,6 @@ var maximumScore = function(nums, multipliers) {
             let right = (j < 1)? -Infinity:dp[j-1] + nums[nums.length - j]*multipliers[i];
             return Math.max(left, right);
         });
-        
     }
     return Math.max(...dp);
 };
