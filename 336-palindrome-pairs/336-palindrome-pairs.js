@@ -18,13 +18,15 @@ var palindromePairs = function(words) {
         if (map.has(words[i]) && map.get(words[i]) !== i) result.push([map.get(words[i]), i]);
         for (let j = 1; j < words[i].length; j++) {
             if (isPalindrome(words[i], 0, j-1)) {
-                if (map.has(words[i].slice(j))) {
-                    result.push([map.get(words[i].slice(j)),i]);
+                const ws = words[i].slice(j);
+                if (map.has(ws)) {
+                    result.push([map.get(ws),i]);
                 } 
             }
             if (isPalindrome(words[i], j)) {
-                if (map.has(words[i].slice(0, j))) {
-                    result.push([i, map.get(words[i].slice(0, j))]);
+                const ws = words[i].slice(0, j);
+                if (map.has(ws)) {
+                    result.push([i, map.get(ws)]);
                 } 
             }
         }
