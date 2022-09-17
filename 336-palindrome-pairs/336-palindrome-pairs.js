@@ -5,9 +5,7 @@
 var palindromePairs = function(words) {
     let result = [];
     let map = new Map();
-    // const rwords = words.map(e => e.split('').reverse().join(''));
     words.map(e => e.split('').reverse().join('')).forEach((e, i) => map.set(e, i));
-    // for (const word of words) {
     for (let i = 0; i < words.length; i++) {
         if (words[i] == "") {
             for(let j = 0; j < words.length; j++) {
@@ -34,18 +32,6 @@ var palindromePairs = function(words) {
     
     return result;
 };
-// var palindromePairs = function(words) {
-//     let result = [];
-    
-//     for (let i = 0; i < words.length; i++) {
-//         for (let j = 0; j < words.length; j++) {
-//             if (i == j) continue;
-//             if (isPalindrome(words[i] + words[j])) result.push([i, j]);
-//         }
-//     }
-    
-//     return result;
-// };
  
 function isPalindrome(word, i = 0, j = word.length - 1) {
     while(i < j) {
