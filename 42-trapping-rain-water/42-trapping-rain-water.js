@@ -18,7 +18,6 @@ var trap = function(height) {
             j--;
             maxj = Math.max(maxj, height[j]);
             result += maxj - height[j]
-            
         }
     }
     
