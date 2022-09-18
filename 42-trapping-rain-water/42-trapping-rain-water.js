@@ -22,8 +22,6 @@ var trap = function(height) {
         }
         bars = stack.reverse();
         stack = [0];
-        
-        // console.log(result, bars);
     }
     
     return result;
