@@ -10,7 +10,6 @@ var trap = function(height) {
         for (const h of bars) {
             if (stack[0] <= h) {
                 let water = stack[0] * (stack.length - 1);
-
                 while(stack.length > 1) {
                     water -= stack.pop();
                 }
