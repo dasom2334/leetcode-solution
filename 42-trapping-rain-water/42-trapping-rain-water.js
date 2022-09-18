@@ -9,8 +9,6 @@ var trap = function(height) {
     while (bars.length > 1){
         for (const h of bars) {
             if (stack[0] <= h) {
-                
-                // console.log(stack);
                 let water = stack[0] * (stack.length - 1);
 
                 while(stack.length > 1) {
