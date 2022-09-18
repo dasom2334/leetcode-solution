@@ -9,7 +9,6 @@ var trap = function(height) {
     let maxj = height[j];
     let result = 0;
     
-    
     while (i < j) {
         if (maxi < maxj) {
             i++;
