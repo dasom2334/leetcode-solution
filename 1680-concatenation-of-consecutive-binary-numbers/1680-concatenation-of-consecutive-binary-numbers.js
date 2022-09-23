@@ -2,10 +2,19 @@
  * @param {number} n
  * @return {number}
  */
-var getPowerOfTwoModedInt = function () {
-    
+var concatenatedBinary = function (n) {
+    let str = 1
+    let len = 4
+    for (let i = 2; i <= n; i++) {
+        if (i === len) {
+            len = len * 2
+        }
+        str = (str * len + i) % 1000000007
+    }
+    return str
+    // 원리가 뭐지
 }
-var concatenatedBinary = function(n) {
+var concatenatedBinaryMine = function(n) {
     const mod = 1000000007;
     const binary = [...Array(n)].map((_, i) => (i+1).toString(2)).join('').split('');
     let result = 0;
