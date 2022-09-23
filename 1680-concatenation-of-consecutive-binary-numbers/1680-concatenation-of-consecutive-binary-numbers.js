@@ -3,20 +3,20 @@
  * @return {number}
  */
 var concatenatedBinary = function (n) {
-    let str = 1
-    let len = 4
+    let str = 1;
+    let len = 4;
     for (let i = 2; i <= n; i++) {
         if (i === len) {
             len = len * 2
         }
         str = (str * len + i) % 1000000007
+        // console.log(str, str.toString(2))
     }
-    return str
-    // 원리가 뭐지
+    return str;
 }
 var concatenatedBinaryMine = function(n) {
     const mod = 1000000007;
-    const binary = [...Array(n)].map((_, i) => (i+1).toString(2)).join('').split('');
+    const binary = [...Array(n)].map((_, i) => (i+1).toString(2)).join('');
     let result = 0;
     let current = 1;
     
