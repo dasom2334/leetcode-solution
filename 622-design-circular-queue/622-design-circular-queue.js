@@ -30,8 +30,7 @@ MyCircularQueue.prototype.deQueue = function() {
     if (!this.isEmpty()) { 
         this.size -= 1;
         this.head[this.pointer] = -1;
-        this.pointer += 1;
-        if (this.pointer >= this.head.length) this.pointer = 0;
+        this.pointer =  (this.pointer + 1) % this.head.length;
         return true;
     }
     return false;
