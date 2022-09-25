@@ -19,7 +19,6 @@ MyCircularQueue.prototype.enQueue = function(value) {
     if (!this.isFull()) {
         this.size += 1;
         this.head[this.getRearPointer()] = value;
-        // console.log(this.head)
         return true;
     }
     return false;
@@ -35,8 +34,6 @@ MyCircularQueue.prototype.deQueue = function() {
         this.head[this.pointer] = -1;
         this.pointer += 1;
         if (this.pointer >= this.head.length) this.pointer = 0;
-        // console.log(this.head)
-        // console.log(this.pointer)
         return true;
     }
     return false;
@@ -54,9 +51,7 @@ MyCircularQueue.prototype.Front = function() {
  * @return {number}
  */
 MyCircularQueue.prototype.Rear = function() {
-    // console.log(this.head, this.size - 1)
     if (this.isEmpty()) return -1;
-    // console.log(this.getRearPointer())
     return this.head[this.getRearPointer()];
 };
 
