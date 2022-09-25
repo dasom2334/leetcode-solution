@@ -29,7 +29,6 @@ MyCircularQueue.prototype.enQueue = function(value) {
  */
 MyCircularQueue.prototype.deQueue = function() {
     if (!this.isEmpty()) { 
-        
         this.size -= 1;
         this.head[this.pointer] = -1;
         this.pointer += 1;
