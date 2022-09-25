@@ -7,7 +7,7 @@ var MyCircularQueue = function(k) {
     this.pointer = 0;
 };
 MyCircularQueue.prototype.getRearPointer = function(value) {
-    return (this.size - 1 + this.pointer) % this.head.length;
+    return (this.size + this.pointer - 1) % this.head.length;
 }
 
 /** 
