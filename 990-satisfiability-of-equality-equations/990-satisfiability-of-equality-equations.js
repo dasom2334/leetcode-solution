@@ -15,14 +15,12 @@ var equationsPossible = function(equations) {
             const a = map.get(e[0]);
             const b = map.get(e[3]);
             if (a == b) return;
-            // console.log(a, b, map, dict, dict[b]);
             [...(dict[b])].forEach(c => {
                 dict[a].add(c);
                 map.set(c, a);
             });
             
             delete dict[b];
-//             console.log(dict)
         } else {
             k = map.has(e[0]) ? map.get(e[0]) : (map.has(e[3]) ? map.get(e[3]) : e[0]);
 
@@ -32,10 +30,7 @@ var equationsPossible = function(equations) {
             dict[k].add(e[0]);
             dict[k].add(e[3]);
         }
-        // console.log(k, map.has[e[3]] ? e[3] : e[0])
-        // console.log(map, dict)
     })
-    // console.log(map, dict)
     
     for (const ne of notEquals) {
         const a = ne[0];
