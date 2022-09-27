@@ -32,7 +32,6 @@ var pushDominoes = function(dominoes) {
         [li, ld] = [ri, rd];
         [ri, rd] = [i, arr[i]];
         toPoint(li, ld, ri, rd, arr);
-        // console.log(arr)
     }
     
     [li, ld] = [ri, rd];
