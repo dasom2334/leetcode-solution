@@ -16,7 +16,6 @@ var pushDominoes = function(dominoes) {
         arr[i] = force;
     }
     force = 0;
-    // console.log(arr);
     for (let i = arr.length -1; i >= 0; i--) {
         if (dominoes[i] == 'L') {
             force = arr.length;
@@ -27,7 +26,6 @@ var pushDominoes = function(dominoes) {
         }
         arr[i] -= force;
     }
-    // console.log(arr);
     return arr.map(e => (e > 0)?'R':((e < 0)? 'L': '.')).join('');
 };
 var pushDominoes1 = function(dominoes) {
