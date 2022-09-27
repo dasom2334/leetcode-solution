@@ -36,8 +36,5 @@ var pushDominoes = function(dominoes) {
             ri++;
         }
     } 
-    // [li, ld] = [ri, rd];
-    // [ri, rd] = [arr.length, 'R'];
-    // toPoint(li, ld, ri, rd, arr);
     return arr.join('');
 };
