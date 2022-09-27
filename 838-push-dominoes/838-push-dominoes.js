@@ -4,8 +4,12 @@
  */
 var pushDominoes = function(dominoes) {
     let arr = [...dominoes];
-    let [li, ld] = [-1, 'L'];
-    let [ri, rd] = [li, ld];
+    let li = -1;
+    let ld = 'L';
+    let ri = li;
+    let rd = ld;
+    // let [li, ld] ;= [-1, 'L'];
+    // let [ri, rd] = [li, ld];
     
 
     const toPoint = (li, ld, ri, rd, arr) => {
@@ -29,13 +33,21 @@ var pushDominoes = function(dominoes) {
     }
     for (let i = 0; i < arr.length; i++) {
         if (dominoes[i] == '.') continue;
-        [li, ld] = [ri, rd];
-        [ri, rd] = [i, arr[i]];
+        li = ri;
+        ld = rd;
+        ri = i;
+        rd = arr[i];
+        // [li, ld] = [ri, rd];
+        // [ri, rd] = [i, arr[i]];
         toPoint(li, ld, ri, rd, arr);
     }
     
-    [li, ld] = [ri, rd];
-    [ri, rd] = [arr.length, 'R'];
+    li = ri;
+    ld = rd;
+    ri = arr.length;
+    rd = 'R';
+    // [li, ld] = [ri, rd];
+    // [ri, rd] = [arr.length, 'R'];
     toPoint(li, ld, ri, rd, arr);
     return arr.join('');
 };
