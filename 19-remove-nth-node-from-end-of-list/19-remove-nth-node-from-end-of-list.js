@@ -19,7 +19,7 @@ var removeNthFromEnd = function(head, n) {
         const num = (node.next == null) ? 1:dfs(node.next, node);
         if (num == n) {
             parent.next = node.next;
-            node.next = null;
+            // node.next = null;
         }
         return num + 1;
     };
