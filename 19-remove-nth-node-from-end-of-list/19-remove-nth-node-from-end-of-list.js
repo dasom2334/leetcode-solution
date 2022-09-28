@@ -14,18 +14,15 @@ var removeNthFromEnd = function(head, n) {
     if (head.next == null) {
         return null;
     }
-    let node = head;
-    let nodes = [head];
-    let isHeadOut = false;
-    while(node.next !== null) {
-        nodes.push(node.next);
-        if(nodes.length > n + 1) {
-            nodes.shift();
-            isHeadOut = true;
+    const root = new ListNode(0, head);
+    const dfs = (node, parent) => {
+        const num = (node.next == null) ? 1:dfs(node.next, node);
+        if (num == n) {
+            parent.next = node.next;
+            node.next = null;
         }
-        node = node.next;
-    }
-    if (!isHeadOut && n == nodes.length) head = nodes[1];
-    else nodes[0].next = nodes[1].next;
-    return head;
+        return num + 1;
+    };
+    dfs(root.next, root);
+    return root.next;
 };
