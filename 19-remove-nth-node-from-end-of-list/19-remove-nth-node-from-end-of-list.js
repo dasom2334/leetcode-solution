@@ -25,7 +25,6 @@ var removeNthFromEnd = function(head, n) {
         }
         node = node.next;
     }
-    console.log(nodes, isHeadOut);
     if (!isHeadOut && n == nodes.length) head = nodes[1];
     else nodes[0].next = nodes[1].next;
     return head;
