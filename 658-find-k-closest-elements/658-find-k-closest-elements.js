@@ -33,6 +33,5 @@ var findClosestElements = function(arr, k, x) {
         count--;
     }
     
-    
     return result;
 };
