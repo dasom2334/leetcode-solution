@@ -5,33 +5,15 @@
  * @return {number[]}
  */
 var findClosestElements = function(arr, k, x) {
-    let l = -1;
-    let r = arr.length;
-    while (l < r - 1) {
-        if (arr[l+1] <= x) {
-            l++;
-        } 
-        if(arr[r-1] >= x) {
-            r--;
+    let l = 0;
+    let r = arr.length - k;
+    while (l < r) {
+        let m = ~~((l + r) / 2);
+        if (x - arr[m] > arr[m + k] - x) {
+            l = m + 1;
+        } else {
+            r = m;
         } 
     }
-    
-    let count = k;
-    let result = [];
-    if (l == r) {
-        result.push(arr[l]);
-        l--; r++; count--;
-    }
-    while (count > 0) {
-        if (l >= 0 && (x - arr[l] <= arr[r] - x || r >= arr.length)) {
-            result.unshift(arr[l]);
-            l--;
-        } else if(r < arr.length) {
-            result.push(arr[r])
-            r++;
-        } 
-        count--;
-    }
-    
-    return result;
+    return arr.slice(l, l+k);
 };
