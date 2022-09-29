@@ -9,7 +9,6 @@ var findClosestElements = function(arr, k, x) {
     let r = arr.length;
     
     while (r - l >= k) {
-        let m = ~~((l + r) / 2);
         if (x - arr[l] > arr[r] - x) {
             l++;
         } else {
