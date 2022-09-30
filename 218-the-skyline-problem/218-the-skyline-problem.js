@@ -35,10 +35,9 @@ var getSkyline = function(buildings) {
     
     
     for (let i = 1; i < arr.length; i++) {
-        let [l, r, h] = arr[i];
         build(arr[i]);
     }
-    build([result[0][0],result[result.length-1][1],0]);
+    build([result[0][0], result[result.length-1][1], 0]);
     
     result.push([result[result.length-1][1],0,0])
     
