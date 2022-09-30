@@ -39,7 +39,7 @@ var getSkyline = function(buildings) {
     }
     build([result[0][0], result[result.length-1][1], 0]);
     
-    result.push([result[result.length-1][1],0,0])
+    result.push([result[result.length-1][1], 0, 0])
     
     return result.map(e => [e[0], e[2]]);
 };
