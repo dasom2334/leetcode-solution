@@ -5,7 +5,6 @@
 var getSkyline = function(buildings) {
     const arr = buildings.slice().sort((a, b) => b[2] - a[2] || a[0] - b[0]);
     
-    // console.log(arr);
     const build = ([l, r, h]) => {
         
         const nowLength = result.length;
@@ -41,6 +40,5 @@ var getSkyline = function(buildings) {
     }
     build([result[0][0],result[result.length-1][1],0]);
     result.push([result[result.length-1][1],0,0])
-    // console.log(result);
     return result.map(e => [e[0], e[2]]);
 };
