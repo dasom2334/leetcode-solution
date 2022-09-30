@@ -3,7 +3,7 @@
  * @return {number[][]}
  */
 var getSkyline = function(buildings) {
-    const arr = buildings.slice().sort((a, b) => b[2] - a[2] || a[0] - b[0]);
+    const arr = buildings.sort((a, b) => b[2] - a[2] || a[0] - b[0]);
     const result = [arr[0]];
     
     const build = ([l, r, h]) => {
