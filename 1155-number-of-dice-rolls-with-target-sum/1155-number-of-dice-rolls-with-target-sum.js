@@ -5,28 +5,26 @@
  * @return {number}
  */
 var numRollsToTarget = function(n, k, target) {
-    let memo = [...Array(n+1)].map(() => Array(target+1).fill(0));
+    let dp = [...Array(n+1)].map(() => Array(target+1).fill(0));
     
-    function run(dice, left) {
-        if(left < dice || left > dice*k) return 0;
-        if(dice === 1) {
-            memo[dice][left] = left <= k ? 1:0;
-            return left <= k;  
+    function dfs(d, l) {
+
+        if(l < d || l > d * k) return 0;
+        if(d === 1) {
+            dp[d][l] = l <= k ? 1:0;
+            return l <= k;  
         } 
-        if(memo[dice][left]) return memo[dice][left];
-        
-        let total = 0;
-        
-        for(let i = 1; i <= k; i++) {
-            total += run(dice-1, left-i);
-            total %= (10**9 + 7);
+        if (dp[d][l] !== 0) return dp[d][l];
+
+        let ans = 0;
+
+        for (let i = 1; i <= k; ++i) {
+            ans += dfs(d - 1, l - i);
         }
-        memo[dice][left] = total;
-        // console.log(memo);
-        return total;
+
+        return dp[d][l] = ans % 1000000007;
     }
-    let result = run(n, target);
-        // console.log(memo);
+    let result = dfs(n, target);
     return result;
 };
 
