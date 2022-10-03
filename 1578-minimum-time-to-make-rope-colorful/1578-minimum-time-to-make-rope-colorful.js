@@ -9,12 +9,11 @@ var minCost = function(colors, neededTime) {
     
     for (let i = 1; i < colors.length; i++) {
         if (colors[i-1] == colors[i]) {
-            if (temp > neededTime[i]) {
-                result += neededTime[i];    
-            } else {
-                result += temp; 
-                temp = neededTime[i];
-            }
+            
+            result += (temp > neededTime[i])?neededTime[i]:temp;
+            temp = Math.max(temp, neededTime[i]);
+            
+        // console.log(temp, result);
         } else {
             temp = neededTime[i];
         }
