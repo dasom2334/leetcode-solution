@@ -20,10 +20,7 @@ var hasPathSum = function(root, targetSum) {
             return (ts == s + node.val) ?true:false;
         };
         
-        let left = dfs(node.left, s + node.val);
-        let right = dfs(node.right, s + node.val);
-        
-        return left || right;
+        return dfs(node.left, s + node.val) || dfs(node.right, s + node.val);
     };
     return dfs(root);
 };
