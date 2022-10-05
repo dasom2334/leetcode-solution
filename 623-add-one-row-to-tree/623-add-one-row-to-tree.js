@@ -12,7 +12,7 @@
  * @param {number} depth
  * @return {TreeNode}
  */
-var addOneRow2 = function(root, val, depth) {
+var addOneRow = function(root, val, depth) {
     if (depth == 1) {
         const newRoot = new TreeNode(val);
         newRoot.left = root;
@@ -36,7 +36,7 @@ var addOneRow2 = function(root, val, depth) {
     dfs(root, depth - 1);
     return root;
 };
-var addOneRow = function(root, val, depth) {
+var addOneRow2 = function(root, val, depth) {
     if (root == null) return root;
     if (depth - 1 == 1) {
         const nl = new TreeNode(val);
