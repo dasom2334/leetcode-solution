@@ -55,6 +55,5 @@ var addOneRow = function(root, val, depth) {
     addOneRow(root.left, val, depth - 1);
     addOneRow(root.right, val, depth - 1);
     
-    
     return root;
 };
