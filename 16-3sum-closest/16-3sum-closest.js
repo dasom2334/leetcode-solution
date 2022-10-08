@@ -13,7 +13,9 @@ var threeSumClosest = function(nums, target) {
         let m = Infinity;
         while (l < r) {
             const ts = ons[l][1] + ons[r][1] + ons[i][1];
-            if (ts > target) {
+            if (ts == target) {
+                return ts;
+            } else if (ts > target) {
                 r--;
             } else {
                 l++;
