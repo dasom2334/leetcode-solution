@@ -12,6 +12,19 @@
  * @return {boolean}
  */
 var findTarget = function(root, k) {
+    const dfs = (node) => {
+        if (node == null) return false;
+        
+        if (node.val !== k/2 && isExists(root, k - node.val)) {
+            return true;
+        }
+        
+        return dfs(node.left) || dfs(node.right);
+        
+    }
+    return dfs(root);
+};
+var findTargetBfs = function(root, k) {
     let toVisit = [root];
     
     while (toVisit.length > 0) {
