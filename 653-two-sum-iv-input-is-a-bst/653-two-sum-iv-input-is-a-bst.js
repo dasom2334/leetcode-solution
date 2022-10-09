@@ -18,8 +18,14 @@ var findTarget = function(root, k) {
         if (node.val !== k/2 && isExists(root, k - node.val)) {
             return true;
         }
+        if (dfs(node.left)) {
+            return true;
+        } else if (dfs(node.right)) {
+            return true;
+            
+        }
         
-        return dfs(node.left) || dfs(node.right);
+        return false;
         
     }
     return dfs(root);
