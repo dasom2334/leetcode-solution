@@ -20,7 +20,9 @@ var findTarget = function(root, k) {
         }
         if (dfs(node.left)) {
             return true;
-        } else if (dfs(node.right)) {
+        } 
+        
+        if (dfs(node.right)) {
             return true;
             
         }
