@@ -4,16 +4,17 @@
  */
 var increasingTriplet = function(nums) {
     let min = Infinity;
-    let max = -Infinity;
+    let min2 = Infinity;
     
     for (const n of nums) {
-        if (min < max && max < n) {
+        if (min >= n) {
+            min = n;
+        } else if (min2 >= n) {
+            min2 = n;
+        } else {
             return true;
         }
-        
-        if (min >=n) min = n;
-        else max = n;
-        // console.log(min, max);
+        // console.log(min, min2);
     }
     
     return false;
