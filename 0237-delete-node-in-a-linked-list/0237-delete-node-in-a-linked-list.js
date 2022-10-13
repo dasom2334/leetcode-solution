@@ -11,6 +11,13 @@
  */
 var deleteNode = function(node) {
     // let n = node;
+    let tempNode = node.next;
+    node.val = tempNode.val;
+    node.next = tempNode.next;
+    
+};
+var deleteNodeOld = function(node) {
+    // let n = node;
     while (node.next.next != null) {
         node.val = node.next.val;
         node = node.next;
