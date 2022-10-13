@@ -11,7 +11,7 @@
  */
 var deleteNode = function(node) {
     // let n = node;
-    let tempNode = node.next;
+    const tempNode = node.next;
     node.val = tempNode.val;
     node.next = tempNode.next;
     
