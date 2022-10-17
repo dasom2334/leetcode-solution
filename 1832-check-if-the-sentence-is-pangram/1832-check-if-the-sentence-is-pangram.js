@@ -6,7 +6,9 @@ var checkIfPangram = function(sentence) {
     const map = new Map();
     
     for (const s of sentence) {
-        map.set(s, 1);
+        if (!map.has(s)){
+            map.set(s, 1);
+        }
     }
     
     for (const a of 'abcdefghijklmnopqrsuvwxyz') {
