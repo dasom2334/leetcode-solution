@@ -4,15 +4,14 @@
  * @return {string[]}
  */
 var topKFrequent = function(words, k) {
-    const dict = {};
+    const map = new Map();
     
     for (const w of words) {
-        if (!(w in dict)) dict[w] = 0;
-        
-        dict[w]++;
+        if (!map.has(w)) map.set(w, 0);
+        map.set(w, map.get(w) + 1);
     }
     
-    const result = [...new Set(words)].sort((a, b) => dict[b] - dict[a] || a.localeCompare(b)).slice(0, k);
+    const result = [...map.keys()].sort((a, b) => map.get(b) - map.get(a) || a.localeCompare(b)).slice(0, k);
     
     return result;    
 };
