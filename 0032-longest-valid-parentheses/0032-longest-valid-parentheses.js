@@ -22,6 +22,6 @@ var longestValidParentheses = function(s) {
     for (let i = stack.length - 1; i > 0; i--) {
         max = Math.max((stack[i][1] - stack[i-1][1]) - 1, max);
     }
-    console.log(stack);
+    // console.log(stack);
     return max;  
 };
