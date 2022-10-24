@@ -8,9 +8,7 @@ var maxLength = function(arr) {
         if (str.length != new Set([...str]).size) return 0;
         if (idx >= arr.length) return str.length;   
         
-        
-        let max = 0;
-        max = Math.max(dfs(idx + 1, str), max);
+        let max = dfs(idx + 1, str);
         for (let i = idx; i < arr.length; i++) {
             max = Math.max(dfs(i + 1, str + arr[i]), max);
         }
