@@ -10,7 +10,7 @@ var maxLength = function(arr) {
         for (let i = idx; i < arr.length; i++) {
             const nstr = str + arr[i];
             const set = new Set([...nstr]);
-            if (nstr.length != set.size) {
+            if (nstr.length > 26 || nstr.length != set.size) {
                 max = Math.max(dfs(i + 1, str), max);
             } else {
                 max = Math.max(dfs(i + 1, nstr), max);
