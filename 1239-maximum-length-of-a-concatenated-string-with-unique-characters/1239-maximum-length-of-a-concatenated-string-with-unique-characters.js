@@ -3,16 +3,17 @@
  * @return {number}
  */
 var maxLength = function(arr) {
+    let result = 0;
     const dfs = (idx = 0, str = "") => {
         // console.log(idx, str, str.length, new Set([...str]).size);
-        if (str.length > 26 || str.length != new Set([...str]).size) return 0;
-        if (idx >= arr.length) return str.length;   
+        if (str.length > 26 || str.length != new Set([...str]).size) return;
         
-        let max = dfs(idx + 1, str);
+        result = Math.max(str.length, result);
         for (let i = idx; i < arr.length; i++) {
-            max = Math.max(dfs(i + 1, str + arr[i]), max);
+            dfs(i + 1, str + arr[i]);
         }
-        return max;        
+        // return max;        
     }
-    return dfs();
+    dfs()
+    return result;
 };
