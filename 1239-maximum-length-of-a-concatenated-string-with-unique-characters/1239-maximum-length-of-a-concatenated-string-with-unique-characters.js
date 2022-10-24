@@ -12,6 +12,6 @@ var maxLength = function(arr) {
             dfs(i + 1, str + arr[i]);
         }
     }
-    dfs()
+    dfs();
     return result;
 };
