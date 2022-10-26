@@ -4,7 +4,6 @@
  * @return {boolean}
  */
 var checkSubarraySum = function(nums, k) {
-    // if (nums.length < 2) return false;
     let sum = 0;
     const map = new Map();
     map.set(0, 0);
