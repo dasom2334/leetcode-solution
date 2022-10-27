@@ -5,21 +5,21 @@
  */
 var largestOverlap = function(img1, img2) {
     
-    const i1 = [];
-    const i2 = [];
+//     const i1 = [];
+//     const i2 = [];
     
-    const map = new Map();
+//     const map = new Map();
     
-    for (let i = 0; i < img1.length; i++) {
-        for (let j = 0; j < img1.length; j++) {
-            if (img1[i][j] == 1) i1.push([i, j]);
-            if (img2[i][j] == 1) {
-                // i2.push([i, j]);  
-                map.set(i + "," + j, 1);
-            } 
-        }
-    }
-    if (i1.length == 0) return 0;
+//     for (let i = 0; i < img1.length; i++) {
+//         for (let j = 0; j < img1.length; j++) {
+//             if (img1[i][j] == 1) i1.push([i, j]);
+//             if (img2[i][j] == 1) {
+//                 // i2.push([i, j]);  
+//                 map.set(i + "," + j, 1);
+//             } 
+//         }
+//     }
+//     if (i1.length == 0) return 0;
     let result = 0;
     
     for (let i = -img1.length + 1; i < img1.length; i++) 
