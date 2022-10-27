@@ -31,8 +31,8 @@ var largestOverlap = function(img1, img2) {
             map.set(fixKey, 1);
             let count = 0;
             for (let k = 0; k < i1.length; k++) {
-                const [y, x] = [i1[k][0] + fy, i1[k][1] + fx];
-                if (map.has(y + "," + x)) {
+                const key = (i1[k][0] + fy) +","+ (i1[k][1] + fx);
+                if (map.has(key)) {
                     count++;
                 }
             }
