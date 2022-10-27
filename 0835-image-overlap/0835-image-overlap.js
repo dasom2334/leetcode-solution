@@ -42,7 +42,10 @@ var largestOverlap = function(img1, img2) {
             
             for (let k = 0; k < img1.length; k++){
                 for (let l = 0; l < img1.length; l++){
-                    if((k + i) < 0 || (k + i) >= img1.length || (l + j) < 0 || (l + j) >= img1.length )continue
+                    if((k + i) < 0 || (k + i) >= img1.length 
+                       || (l + j) < 0 || (l + j) >= img1.length) {
+                        continue;
+                    }
 
                     if(img1[k][l] + img2[k + i][l + j] === 2) {
                         count++;
