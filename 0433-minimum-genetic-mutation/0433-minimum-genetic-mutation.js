@@ -21,10 +21,7 @@ var minMutation = function(start, end, bank) {
         }
         
         const bs = bank.filter(e => unMatchedCnt(e, str) == 1);
-        
-        // console.log(bs);
         bs.forEach(e => toVisit.push([e, cnt + 1]));
-        // console.log(toVisit);
         
     }
     
