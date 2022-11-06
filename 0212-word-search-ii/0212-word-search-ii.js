@@ -20,7 +20,6 @@ var findWords = function(board, words) {
         }
         tr['word'] = word;
     }
-    // console.log(trie);
     
     const dfs = (y, x, node) => {
         const cur = board[y]?.[x];
