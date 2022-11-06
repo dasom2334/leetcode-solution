@@ -9,7 +9,7 @@ var findWords = function(board, words) {
     const maxL = 10;
     
     const trie = {};
-    const result = new Set();
+    const result = [];
     
     
     for (const word of words) {
@@ -25,18 +25,20 @@ var findWords = function(board, words) {
     const dfs = (y, x, node) => {
         const cur = board[y]?.[x];
         if (!cur || !node?.[cur]) return;
-        if ('word' in node[cur]) {
-            result.add(node[cur]['word']);
-            if (Object.keys(node[cur]).length == 1) {
-                delete node[cur];
-            }
-        }
         board[y][x] = null;
         
         dfs(y+1, x, node[cur]);
         dfs(y-1, x, node[cur]);
         dfs(y, x+1, node[cur]);
         dfs(y, x-1, node[cur]);
+        
+        if (node[cur] && 'word' in node[cur]) {
+            result.push(node[cur]['word']);
+            delete node[cur]['word'];
+            if (Object.keys(node[cur]).length == 0) {
+                delete node[cur];
+            }
+        }
         
         board[y][x] = cur;
     };
@@ -47,5 +49,5 @@ var findWords = function(board, words) {
     }
     
     
-    return [...result];
+    return result;
 };
