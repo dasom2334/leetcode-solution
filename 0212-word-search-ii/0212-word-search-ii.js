@@ -38,7 +38,6 @@ var findWords = function(board, words) {
         str += board[y][x];
         
         let tr = trie;
-        let xi = str.length - 1;
         let i = str.length - 1;
         for (; i >= 0; i--) {
             if (!(str[i] in tr)) break;
