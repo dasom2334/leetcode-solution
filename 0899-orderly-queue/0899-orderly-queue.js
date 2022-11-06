@@ -3,7 +3,7 @@
  * @param {number} k
  * @return {string}
  */
-var orderlyQueue = function(s, k) {
+var orderlyQueue2 = function(s, k) {
     if (k > 1) {
         return s.split('').sort().join('');
     }
@@ -21,7 +21,7 @@ var orderlyQueue = function(s, k) {
     return result;
 };
 
-var orderlyQueue2 = function(s, k) {
+var orderlyQueue = function(s, k) {
     if (k > 1) {
         return s.split('').sort().join('');
     }
