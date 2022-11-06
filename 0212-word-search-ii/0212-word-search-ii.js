@@ -22,11 +22,15 @@ var findWords = function(board, words) {
     }
     // console.log(trie);
     
-    // console.log(map);
     const dfs = (y, x, node) => {
         const cur = board[y]?.[x];
         if (!cur || !node?.[cur]) return;
-        if ('word' in node[cur]) result.add(node[cur]['word']); 
+        if ('word' in node[cur]) {
+            result.add(node[cur]['word']);
+            if (Object.keys(node[cur]).length == 1) {
+                delete node[cur];
+            }
+        }
         board[y][x] = null;
         
         dfs(y+1, x, node[cur]);
