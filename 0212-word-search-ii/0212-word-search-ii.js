@@ -8,7 +8,7 @@ var findWords = function(board, words) {
     const n = board[0].length;
     const maxL = 10;
     
-    // const map = new Map();
+    const map = new Map();
     const trie = {};
     const dp = new Array(m).fill(null).map(e => new Array(n).fill(0));
     const result = new Set();
@@ -37,14 +37,18 @@ var findWords = function(board, words) {
         
         str += board[y][x];
         
-        let tr = trie;
-        let xi = str.length - 1;
-        let i = str.length - 1;
-        for (; i >= 0; i--) {
-            if (!(str[i] in tr)) break;
-            tr = tr[str[i]];
+        if (!map.has(str)) {
+            map.set(str, 1);
+            let tr = trie;
+            let xi = str.length - 1;
+            let i = str.length - 1;
+            for (; i >= 0; i--) {
+                if (!(str[i] in tr)) break;
+                tr = tr[str[i]];
+            }
+            if (i === -1 && tr['word'] === true) result.add(str);
+            
         }
-        if (i === -1 && tr['word'] === true) result.add(str);
         // if (map.get(board[y][x])?.includes(str)) {
         //     result.add(str);
         // }
