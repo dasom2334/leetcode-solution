@@ -3,22 +3,32 @@
  * @param {string[]} words
  * @return {string[]}
  */
-var findWords = function(board, words) {
-    
+var findWords = function(board, words) {    
     const m = board.length;
     const n = board[0].length;
     const maxL = 10;
     
-    const map = new Map();
+    // const map = new Map();
+    const trie = {};
     const dp = new Array(m).fill(null).map(e => new Array(n).fill(0));
     const result = new Set();
     
     
+    // for (const word of words) {
+    //     const last = word.at(-1);
+    //     if (!map.has(last)) map.set(last, []);
+    //     map.get(last).push(word);
+    // }
+    
     for (const word of words) {
-        const last = word.at(-1);
-        if (!map.has(last)) map.set(last, []);
-        map.get(last).push(word);
+        let tr = trie;
+        for (let i = word.length - 1; i >= 0; i--) {
+            if (!(word[i] in tr)) tr[word[i]] = {};
+            tr = tr[word[i]];
+        }
+        tr['word'] = true;
     }
+    
     
     // console.log(map);
     const dfs = (y, x, str = "") => {
@@ -26,9 +36,18 @@ var findWords = function(board, words) {
         dp[y][x] = 1;
         
         str += board[y][x];
-        if (map.get(board[y][x])?.includes(str)) {
-            result.add(str);
+        
+        let tr = trie;
+        let xi = str.length - 1;
+        let i = str.length - 1;
+        for (; i >= 0; i--) {
+            if (!(str[i] in tr)) break;
+            tr = tr[str[i]];
         }
+        if (i === -1 && tr['word'] === true) result.add(str);
+        // if (map.get(board[y][x])?.includes(str)) {
+        //     result.add(str);
+        // }
         
         dfs(y+1, x, str);
         dfs(y-1, x, str);
