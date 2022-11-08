@@ -3,6 +3,21 @@
  * @return {string}
  */
 var makeGood = function(s) {
+    const stack = [];
+    
+    for (const c of s) {
+        const l = stack.at(-1);
+        
+        if (stack.length > 0 && l !== c && new RegExp(l, 'i').test(c)) {
+            stack.pop();
+        } else {
+            stack.push(c);
+        }
+    }
+    return stack.join('');
+    
+};
+var makeGood2 = function(s) {
     let str = s;
     let changed = true;
     
