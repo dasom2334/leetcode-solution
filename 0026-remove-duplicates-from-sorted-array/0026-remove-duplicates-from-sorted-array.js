@@ -14,10 +14,8 @@ var removeDuplicates = function(nums) {
             before = nums[i];
             result++;
         }
-        // console.log(nums);
     }
     
-    // console.log(result, nums);
     nums.sort((a, b) => {
         if (a == "_" && b == "_") {
             return 0;
@@ -29,6 +27,5 @@ var removeDuplicates = function(nums) {
             return a - b;
         }
     });
-    // console.log(nums);
     return result;
 };
