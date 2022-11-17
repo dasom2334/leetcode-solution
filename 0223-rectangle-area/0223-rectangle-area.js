@@ -20,8 +20,7 @@ var computeArea = function(ax1, ay1, ax2, ay2, bx1, by1, bx2, by2) {
     const t = Math.min(ay2, by2);
     const b = Math.max(ay1, by1);
     
-    const temp = (r - l) * (t - b);
-    if (r - l > 0 && t - b > 0) overlap = temp;
+    if (r - l > 0 && t - b > 0) overlap = (r - l) * (t - b);
     
     return aa + ba - overlap;
 };
