@@ -3,23 +3,20 @@
  * @return {number}
  */
 var calculate = function(s) {
-    const stack = [0n];
+    const stack = [0];
     const numCharacter = "0123456789".split('');
     let number = "";
     let lastOper = "+"
     for (let i = 0; i < s.length; i++) {
         switch (s[i]) {
             case "(":
-                // console.log('(');
                 stack.push((lastOper === "-")? "-":"+");
-                stack.push(0n);
-                lastOper = "(";
+                stack.push(0);
+                lastOper = "";
                 break;
             case ")":
-                // console.log(')');
                 let last = stack.pop();
-                if (stack.length > 1 && stack.pop() === "-") last *= -1n; 
-                
+                if (stack.length > 1 && stack.pop() === "-") last *= -1; 
                 stack[stack.length - 1] += last;
                 break;
             case "+":
@@ -33,8 +30,8 @@ var calculate = function(s) {
             default :
                 number += s[i];
                 if (!numCharacter.includes(s[i+1])) {
-                    let n = BigInt(number);
-                    if (lastOper === "-") n *= -1n; 
+                    let n = parseInt(number);
+                    if (lastOper === "-") n *= -1; 
                     stack[stack.length - 1] += n;
                     number = "";
                 }
