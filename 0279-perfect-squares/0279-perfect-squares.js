@@ -10,7 +10,7 @@ var numSquares = function(n) {
     
     while (toVisit.length > 0) {
         const [sum, cnt] = toVisit.shift();
-        if (sum > n) continue;
+        if (sum > n || cnt > 4) continue;
         if (sum === n) return cnt;
         toVisit.push(...squares.filter(e => {
             if (visited.has(sum + e)) {
