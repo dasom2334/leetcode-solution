@@ -13,8 +13,7 @@ var sumSubarrayMins = function(arr) {
             min = Math.min(min, arr[j]);
             result += min;
         }
-        result %= mod;
     }
     
-    return result;
+    return result %= mod;
 };
