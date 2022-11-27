@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var numberOfArithmeticSlices = function(nums) {
+var numberOfArithmeticSlicesObject = function(nums) {
     let result = 0;
     const dp = new Array(nums.length).fill(null).map(e => new Object());
 
@@ -16,7 +16,7 @@ var numberOfArithmeticSlices = function(nums) {
     }
     return result;
 };
-var numberOfArithmeticSlicesMap = function(nums) {
+var numberOfArithmeticSlices = function(nums) {
     let result = 0;
     const dp = new Array(nums.length).fill(null).map(e => new Map());
 
