@@ -9,7 +9,6 @@ var numberOfArithmeticSlices = function(nums) {
     for (let i = 1; i < nums.length; i++) {
         for (let j = 0; j < i; j++) {
             const diff = nums[i] - nums[j];
-            // console.log(nums[i], nums[j], diff, i, j, dp[j][diff])
             let rs = 0;
             if (diff in dp[j]) {
                 rs = dp[j][diff];   
