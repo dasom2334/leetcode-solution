@@ -5,7 +5,6 @@
 var numberOfArithmeticSlices = function(nums) {
     let result = 0;
     const dp = new Array(nums.length).fill(null).map(e => new Object());
-    // console.log(dp);
 
     for (let i = 1; i < nums.length; i++) {
         for (let j = 0; j < i; j++) {
@@ -19,7 +18,6 @@ var numberOfArithmeticSlices = function(nums) {
             dp[i][diff] += rs + 1;  
             result += rs;
         }
-        // console.log(i, result, dp)
     }
     return result;
 };
