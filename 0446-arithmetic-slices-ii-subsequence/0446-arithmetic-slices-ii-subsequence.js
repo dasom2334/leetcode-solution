@@ -4,6 +4,24 @@
  */
 var numberOfArithmeticSlices = function(nums) {
     let result = 0;
+    const dp = new Array(nums.length).fill(null).map(e => new Object());
+
+    for (let i = 1; i < nums.length; i++) {
+        for (let j = 0; j < i; j++) {
+            const diff = nums[i] - nums[j];
+            let rs = 0;
+            if (diff in dp[j]) {
+                rs = dp[j][diff];   
+            }
+            if (!(diff in dp[i])) dp[i][diff] = 0;
+            dp[i][diff] += rs + 1;  
+            result += rs;
+        }
+    }
+    return result;
+};
+var numberOfArithmeticSlicesMap = function(nums) {
+    let result = 0;
     const dp = new Array(nums.length).fill(null).map(e => new Map());
 
     for (let i = 1; i < nums.length; i++) {
