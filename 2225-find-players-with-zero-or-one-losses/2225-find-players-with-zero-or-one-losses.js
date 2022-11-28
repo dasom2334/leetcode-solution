@@ -9,8 +9,6 @@ var findWinners = function(matches) {
         const [w, l] = match;
         if (!(w in dict)) {
             dict[w] = 1;
-        } else {
-            
         }
         if (l in dict) {
             dict[l] = dict[l] - 1;
@@ -24,7 +22,6 @@ var findWinners = function(matches) {
             result[1].push(k);
         } else if (dict[k] == 1) {
             result[0].push(k);
-            
         } 
         
     }
