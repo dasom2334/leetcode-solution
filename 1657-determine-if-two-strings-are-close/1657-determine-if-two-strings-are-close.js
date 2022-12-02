@@ -3,7 +3,8 @@
  * @param {string} word2
  * @return {boolean}
  */
-var closeStrings = function(word1, word2) {
+// var closeStrings = function(word1, word2) {
+var closeStringsMap = function(word1, word2) {
     if (word1.length !== word2.length) return false;
     
     const word1Map = new Map();
@@ -35,7 +36,8 @@ var closeStrings = function(word1, word2) {
     //hmmm why?
     return true;
 };
-var closeStringsObject = function(word1, word2) {
+var closeStrings = function(word1, word2) {
+// var closeStringsObject = function(word1, word2) {
     if (word1.length !== word2.length) return false;
     
     const word1Dict = {};
