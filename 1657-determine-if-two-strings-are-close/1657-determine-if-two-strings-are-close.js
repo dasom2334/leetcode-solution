@@ -32,7 +32,7 @@ var closeStrings = function(word1, word2) {
         if (word1Keys[i] !== word2Keys[i]) return false;
     }
     
-    
+    //hmmm why?
     return true;
 };
 var closeStringsObject = function(word1, word2) {
