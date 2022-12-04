@@ -17,7 +17,6 @@ var minimumAverageDifference = function(nums) {
         l[2] = (l[1]) ? ~~(l[0]/l[1]) : 0;
         r[2] = (r[1]) ? ~~(r[0]/r[1]) : 0;
         const avDiff = Math.abs((l[2]) - r[2]);
-        // console.log(l, r, avDiff, min, result)
         if (min > avDiff) {
             result = i;
             min = avDiff;
