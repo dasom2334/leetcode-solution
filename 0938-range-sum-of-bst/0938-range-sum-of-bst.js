@@ -22,7 +22,5 @@ var rangeSumBST = function(node, low, high) {
     if (low <= node.val) sum += rangeSumBST(node.left, low, high);
     if (node.val <= high) sum += rangeSumBST(node.right, low, high);
     
-    
-    
     return sum;
 };
