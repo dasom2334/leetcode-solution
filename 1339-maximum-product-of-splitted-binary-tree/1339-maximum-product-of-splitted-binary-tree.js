@@ -24,7 +24,6 @@ var maxProduct = function(head) {
         const left = dfs(node.left);
         const right = dfs(node.right);
         result = Math.max(result, (totalSum - left) * left, (totalSum - right) * right);
-        // result %= modulo;
         return left + right + node.val;
     }
     dfs(head);
