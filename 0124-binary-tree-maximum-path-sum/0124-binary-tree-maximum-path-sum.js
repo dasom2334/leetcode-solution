@@ -20,9 +20,10 @@ var maxPathSum = function(root) {
         const left = dfs(node.left);
         const right = dfs(node.right);
         
-        result = Math.max(result, node.val, left + right + node.val, left + node.val, right + node.val);
+        const curMax = Math.max(node.val, left + node.val, right + node.val);
+        result = Math.max(result, curMax, left + right + node.val,);
         
-        return Math.max(node.val, left + node.val, right + node.val);
+        return curMax;
         
     }
     
