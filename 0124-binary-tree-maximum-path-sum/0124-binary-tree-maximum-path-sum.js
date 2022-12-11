@@ -21,7 +21,7 @@ var maxPathSum = function(root) {
         const right = dfs(node.right);
         
         const curMax = Math.max(node.val, left + node.val, right + node.val);
-        result = Math.max(result, curMax, left + right + node.val,);
+        result = Math.max(result, curMax, left + right + node.val);
         
         return curMax;
         
