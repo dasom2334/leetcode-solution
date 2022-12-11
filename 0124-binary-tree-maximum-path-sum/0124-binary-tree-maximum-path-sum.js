@@ -11,7 +11,6 @@
  * @return {number}
  */
 var maxPathSum = function(root) {
-    if (!root.left && !root.right) return root.val;
     let result = root.val;
     
     const dfs = (node) => {
