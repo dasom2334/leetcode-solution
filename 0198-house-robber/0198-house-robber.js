@@ -7,6 +7,5 @@ var rob = function(nums) {
     for (let i = 3; i < nums.length; i++) {
         nums[i] += Math.max(nums[i-2], nums[i-3])
     }
-    // console.log(nums)
     return Math.max(nums.at(-1), nums.at(-2) || 0)
 };
