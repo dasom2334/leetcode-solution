@@ -13,7 +13,6 @@ var dailyTemperatures = function(temp) {
             result[cur] = i - cur;
         }
         stack.push(i)
-        // console.log(result, stack)
     }
     
     return result;
