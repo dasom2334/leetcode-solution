@@ -8,8 +8,6 @@ var longestCommonSubsequence = function(text1, text2) {
     
     for (let i = 1; i <= text1.length; i ++) {
         for (let j = 1; j <= text2.length; j++) {
-            // dp[i][j] = dp[i-1][j-1] + 1
-        
             if (text1[i-1] === text2[j-1]) {
                 dp[i][j] = dp[i-1][j-1] + 1;
             } else {
