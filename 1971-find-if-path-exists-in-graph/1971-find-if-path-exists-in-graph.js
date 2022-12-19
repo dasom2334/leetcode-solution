@@ -11,7 +11,6 @@ var validPath = function(n, edges, source, destination) {
     edges.forEach(([a, b]) => {
         if (!map.has(a)) map.set(a, []);
         if (!map.has(b)) map.set(b, []);
-        
         map.get(a).push(b);
         map.get(b).push(a);
     })
@@ -22,11 +21,11 @@ var validPath = function(n, edges, source, destination) {
         if (num === destination) return true;
         if (visited.has(num)) return false;
         visited.add(num);
-        
-        const nexts = map.get(num).map(e => dfs(e))
-        
-        if (nexts.includes(true)) return true;
-        else return false;
+        const nexts = map.get(num);
+        for (let i = 0; i < nexts.length; i++) {
+            if (dfs(nexts[i])) return true;
+        }
+        return false;
     }
     
     
