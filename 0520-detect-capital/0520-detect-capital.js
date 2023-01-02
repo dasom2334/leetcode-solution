@@ -7,7 +7,7 @@ var detectCapitalUse = function(word) {
     if (case1 === word) return true;
     const case2 = word.toLowerCase();
     if (case2 === word) return true;
-    const case3 = word[0] + word.slice(1).toLowerCase();
+    const case3 = word[0] + case2.slice(1);
     if (case3 === word) return true;
     return false;
 };
