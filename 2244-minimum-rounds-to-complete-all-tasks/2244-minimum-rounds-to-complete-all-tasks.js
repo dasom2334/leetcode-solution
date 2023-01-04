@@ -8,13 +8,11 @@ var minimumRounds = function(tasks) {
         map.set(t, (map.get(t) || 0) + 1)
     }
     
-    const values = [...map].map(e => e[1])
-    if (values.includes(1)) return -1
-    
     let result = 0
-    
-    values.forEach(e => result += Math.ceil(e/3))
-    
+    for (const [k, v] of map) {
+        if (v === 1) return -1
+        result += Math.ceil(v/3)
+    }
     
     return result;
 };
