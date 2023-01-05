@@ -13,6 +13,7 @@ var findMinArrowShots = function(points) {
             result += 1;
             max = Infinity;
         }        
+        console.log('slow')
         max = Math.min(max, e);
     }
     return result;
