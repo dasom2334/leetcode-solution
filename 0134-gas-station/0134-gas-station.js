@@ -4,6 +4,10 @@
  * @return {number}
  */
 var canCompleteCircuit = function(gas, cost) {
+    const sum = (a, b) => a + b
+    const gs = gas.reduce(sum, 0)
+    const cs = gas.reduce(sum, 0)
+    if (gs < cs) return -1;
     const test = new Array(gas.length).fill(0).map((e, i) => i).filter(e => gas[e] - cost[e] >= 0).sort((a, b) => cost.at(b - 1) - cost.at(a - 1))
     for (let idx = 0; idx < test.length; idx++) {
         let isComplete = true
