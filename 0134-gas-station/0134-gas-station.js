@@ -4,10 +4,7 @@
  * @return {number}
  */
 var canCompleteCircuit = function(gas, cost) {
-    if (gas.length === 1) {
-        return (gas[0] >= cost[0]) ? 0 : -1
-    }
-    const test = new Array(gas.length).fill(0).map((e, i) => i).filter(e => gas[e] - cost[e] > 0).sort((a, b) => cost.at(b - 1) - cost.at(a - 1))
+    const test = new Array(gas.length).fill(0).map((e, i) => i).filter(e => gas[e] - cost[e] >= 0).sort((a, b) => cost.at(b - 1) - cost.at(a - 1))
     for (let idx = 0; idx < test.length; idx++) {
         let isComplete = true
         const i = test[idx];
