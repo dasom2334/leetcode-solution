@@ -12,9 +12,7 @@ var maxPoints = function(points) {
             const inc = (points[j][1] - points[i][1]) / (points[j][0] - points[i][0]);
             map.set(inc, (map.get(inc) || 0) + 1);
         }
-        // console.log(map, Array.from(map.values()))
         result = Math.max(result - 1, ...Array.from(map.values())) + 1
     }
-    // console.log(map.values())
     return result
 };
