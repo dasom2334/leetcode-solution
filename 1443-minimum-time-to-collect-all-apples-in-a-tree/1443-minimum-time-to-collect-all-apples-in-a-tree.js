@@ -27,6 +27,5 @@ var minTime = function(n, edges, hasApple) {
         return nums;
     }
     
-    const result = dfs(0, -1)
-    return result;
+    return dfs(0, -1);
 };
