@@ -10,7 +10,6 @@ var gcdOfStrings = function(str1, str2) {
     }
     const max = gcd(str1.length, str2.length);
     const str = str1.slice(0, max);
-    console.log(str)
     let i = max;
     while (i <= str1.length) {
         if (str !== str1.slice(i - max, i)) return "";
