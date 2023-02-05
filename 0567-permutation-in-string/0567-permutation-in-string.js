@@ -18,7 +18,5 @@ var checkInclusion = function(s1, s2) {
         if (map.has(s2[i])) map.set(s2[i], map.get(s2[i]) - 1)
     }
     if ([...map.values()].filter(e => e !== 0).length == 0) return true
-    
-    
     return false
 };
