@@ -12,11 +12,18 @@ var checkInclusion = function(s1, s2) {
     
     
     for (let i = s1.length; i < s2.length; i++) {
-        if ([...map.values()].filter(e => e !== 0).length == 0) return true
+        if (isAllZero(map.values())) return true
         const r = s2[i - s1.length]
         if (map.has(r)) map.set(r, map.get(r) + 1)
         if (map.has(s2[i])) map.set(s2[i], map.get(s2[i]) - 1)
     }
-    if ([...map.values()].filter(e => e !== 0).length == 0) return true
+    if (isAllZero(map.values())) return true
     return false
 };
+
+function isAllZero(iter) {
+    for (const e of iter) {
+        if (e !== 0) return false
+    }
+    return true
+}
