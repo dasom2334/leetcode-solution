@@ -8,7 +8,7 @@ var convert = function(s, numRows) {
     if (numRows == 1) return s;
 
     let arr = Array.from(new Array(numRows), x => new Array());
-    let isDown = (numRows > 1)?true:false;
+    let isDown = true;
     let x = 0;
     let y = 0;
     
