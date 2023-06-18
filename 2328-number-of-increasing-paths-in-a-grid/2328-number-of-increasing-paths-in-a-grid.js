@@ -37,5 +37,5 @@ var countPaths = function(grid) {
         }
     }
     const rows = dp.map(row => row.reduce((p, c) => p + c, 0));
-    return rows.reduce((p, c) => p + c, 0) % modulo;
+    return rows.reduce((p, c) => (p + c) % modulo, 0);
 };
