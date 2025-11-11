@@ -12,10 +12,12 @@ https://leetcode.com/dasom2334/
 |  |
 | ------- |
 | [1642-water-bottles](https://github.com/dasom2334/leetcode-solution/tree/master/1642-water-bottles) |
+| [2288-count-operations-to-obtain-zero](https://github.com/dasom2334/leetcode-solution/tree/master/2288-count-operations-to-obtain-zero) |
 ## Simulation
 |  |
 | ------- |
 | [1642-water-bottles](https://github.com/dasom2334/leetcode-solution/tree/master/1642-water-bottles) |
+| [2288-count-operations-to-obtain-zero](https://github.com/dasom2334/leetcode-solution/tree/master/2288-count-operations-to-obtain-zero) |
 ## Array
 |  |
 | ------- |
