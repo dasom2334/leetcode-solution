@@ -39,6 +39,7 @@ https://leetcode.com/dasom2334/
 ## Greedy
 |  |
 | ------- |
+| [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/dasom2334/leetcode-solution/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/dasom2334/leetcode-solution/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Monotonic Stack
 |  |
@@ -48,8 +49,13 @@ https://leetcode.com/dasom2334/
 |  |
 | ------- |
 | [0474-ones-and-zeroes](https://github.com/dasom2334/leetcode-solution/tree/master/0474-ones-and-zeroes) |
+| [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/dasom2334/leetcode-solution/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0474-ones-and-zeroes](https://github.com/dasom2334/leetcode-solution/tree/master/0474-ones-and-zeroes) |
+## Counting
+|  |
+| ------- |
+| [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/dasom2334/leetcode-solution/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 <!---LeetCode Topics End-->
