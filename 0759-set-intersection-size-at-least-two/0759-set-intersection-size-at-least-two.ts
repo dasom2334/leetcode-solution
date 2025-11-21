@@ -1,23 +1,21 @@
 function intersectionSizeTwo(intervals: number[][]): number {
-    intervals.sort((a, b) => a[0] - b[0] || b[1] - a[1]);
-    // intervals.sort((a, b) => b.length - a.length);
+    intervals.sort((a, b) => a[1] - b[1] || b[0] - a[0]);
     let result = 0;
-    const mat = Array.from({length: intervals.length}, () => 2);
-
-    for (let index = intervals.length - 1; index >= 0; index--) {
-        const interval = intervals[index];
-        const [start, end] = interval;
-        const m = mat[index];
-        for (let i = start; i < start + m; ++i) {
-            for (let j = 0; j <= index; ++j) {
-                if (m > 0 && i <= intervals[j][1]) {
-                    mat[j] -= 1;
-                }
-            }
-            // console.log(mat);
+    const prev = [-1, -1];
+    for (const interval of intervals) {
+        const [s, e] = interval;
+        if (e <= prev[0]) {
+            continue;
+        } else if (prev[1] < s) {
+            result += 2;
+            prev[0] = e - 1;
+            prev[1] = e;
+        } else if (prev[0] < s) {
             result += 1;
+            prev[0] = prev[1];
+            prev[1] = e;
         }
     }
 
     return result;
-};
+}
