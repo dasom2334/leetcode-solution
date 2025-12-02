@@ -16,6 +16,7 @@ https://leetcode.com/dasom2334/
 | [1642-water-bottles](https://github.com/dasom2334/leetcode-solution/tree/master/1642-water-bottles) |
 | [2288-count-operations-to-obtain-zero](https://github.com/dasom2334/leetcode-solution/tree/master/2288-count-operations-to-obtain-zero) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
+| [3623-count-number-of-trapezoids-i](https://github.com/dasom2334/leetcode-solution/tree/master/3623-count-number-of-trapezoids-i) |
 ## Simulation
 |  |
 | ------- |
@@ -31,6 +32,7 @@ https://leetcode.com/dasom2334/
 | [2625-increment-submatrices-by-one](https://github.com/dasom2334/leetcode-solution/tree/master/2625-increment-submatrices-by-one) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/dasom2334/leetcode-solution/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
+| [3623-count-number-of-trapezoids-i](https://github.com/dasom2334/leetcode-solution/tree/master/3623-count-number-of-trapezoids-i) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/dasom2334/leetcode-solution/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Prefix Sum
 |  |
@@ -43,6 +45,7 @@ https://leetcode.com/dasom2334/
 | ------- |
 | [1015-smallest-integer-divisible-by-k](https://github.com/dasom2334/leetcode-solution/tree/master/1015-smallest-integer-divisible-by-k) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/dasom2334/leetcode-solution/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [3623-count-number-of-trapezoids-i](https://github.com/dasom2334/leetcode-solution/tree/master/3623-count-number-of-trapezoids-i) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/dasom2334/leetcode-solution/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Stack
 |  |
@@ -97,4 +100,8 @@ https://leetcode.com/dasom2334/
 |  |
 | ------- |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/dasom2334/leetcode-solution/tree/master/2059-unique-length-3-palindromic-subsequences) |
+## Geometry
+|  |
+| ------- |
+| [3623-count-number-of-trapezoids-i](https://github.com/dasom2334/leetcode-solution/tree/master/3623-count-number-of-trapezoids-i) |
 <!---LeetCode Topics End-->
