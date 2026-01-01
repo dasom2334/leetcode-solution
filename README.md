@@ -11,6 +11,7 @@ https://leetcode.com/dasom2334/
 ## Math
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/dasom2334/leetcode-solution/tree/master/0066-plus-one) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/dasom2334/leetcode-solution/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/dasom2334/leetcode-solution/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/dasom2334/leetcode-solution/tree/master/1642-water-bottles) |
@@ -26,6 +27,7 @@ https://leetcode.com/dasom2334/
 ## Array
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/dasom2334/leetcode-solution/tree/master/0066-plus-one) |
 | [0474-ones-and-zeroes](https://github.com/dasom2334/leetcode-solution/tree/master/0474-ones-and-zeroes) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/dasom2334/leetcode-solution/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0759-set-intersection-size-at-least-two](https://github.com/dasom2334/leetcode-solution/tree/master/0759-set-intersection-size-at-least-two) |
