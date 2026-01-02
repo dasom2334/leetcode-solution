@@ -4,15 +4,11 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        targetCnt = len(nums) / 2
-        map = dict()
+        targetCnt = len(nums) // 2
+        freq = defaultdict(int)
         for num in nums:
-            if num not in map:
-                map[num] = 0
-
-            map[num] += 1
-
-            if map[num] == targetCnt:
+            freq[num] += 1
+            if freq[num] == targetCnt:
                 return num
         return 0
         
