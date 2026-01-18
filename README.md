@@ -16,6 +16,7 @@ https://leetcode.com/dasom2334/
 | [1636-number-of-substrings-with-only-1s](https://github.com/dasom2334/leetcode-solution/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/dasom2334/leetcode-solution/tree/master/1642-water-bottles) |
 | [2288-count-operations-to-obtain-zero](https://github.com/dasom2334/leetcode-solution/tree/master/2288-count-operations-to-obtain-zero) |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/dasom2334/leetcode-solution/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3623-count-number-of-trapezoids-i](https://github.com/dasom2334/leetcode-solution/tree/master/3623-count-number-of-trapezoids-i) |
 ## Simulation
@@ -37,6 +38,7 @@ https://leetcode.com/dasom2334/
 | [1975-maximum-matrix-sum](https://github.com/dasom2334/leetcode-solution/tree/master/1975-maximum-matrix-sum) |
 | [2625-increment-submatrices-by-one](https://github.com/dasom2334/leetcode-solution/tree/master/2625-increment-submatrices-by-one) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/dasom2334/leetcode-solution/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/dasom2334/leetcode-solution/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/dasom2334/leetcode-solution/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3531-count-covered-buildings](https://github.com/dasom2334/leetcode-solution/tree/master/3531-count-covered-buildings) |
@@ -124,6 +126,7 @@ https://leetcode.com/dasom2334/
 ## Geometry
 |  |
 | ------- |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/dasom2334/leetcode-solution/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3623-count-number-of-trapezoids-i](https://github.com/dasom2334/leetcode-solution/tree/master/3623-count-number-of-trapezoids-i) |
 ## Tree
 |  |
