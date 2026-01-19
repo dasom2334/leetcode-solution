@@ -1,7 +1,7 @@
 class Solution:
     def largestMagicSquare(self, grid: List[List[int]]) -> int:
         k = min(len(grid), len(grid[0]))
-        for kk in range(k, 0, -1):
+        for kk in range(k, 1, -1):
             for i in range(0, len(grid) - kk + 1):
                 for j in range(0, len(grid[0]) - kk + 1):
                     # print(kk, i, j, (len(grid) - kk, ), len(grid[0]) - kk)
