@@ -11,6 +11,7 @@ https://leetcode.com/dasom2334/
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/dasom2334/leetcode-solution/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/dasom2334/leetcode-solution/tree/master/0066-plus-one) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/dasom2334/leetcode-solution/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/dasom2334/leetcode-solution/tree/master/1636-number-of-substrings-with-only-1s) |
@@ -29,6 +30,7 @@ https://leetcode.com/dasom2334/
 ## Array
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/dasom2334/leetcode-solution/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/0054-spiral-matrix) |
 | [0066-plus-one](https://github.com/dasom2334/leetcode-solution/tree/master/0066-plus-one) |
 | [0474-ones-and-zeroes](https://github.com/dasom2334/leetcode-solution/tree/master/0474-ones-and-zeroes) |
@@ -113,6 +115,7 @@ https://leetcode.com/dasom2334/
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/dasom2334/leetcode-solution/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/0054-spiral-matrix) |
 | [1895-largest-magic-square](https://github.com/dasom2334/leetcode-solution/tree/master/1895-largest-magic-square) |
 | [1975-maximum-matrix-sum](https://github.com/dasom2334/leetcode-solution/tree/master/1975-maximum-matrix-sum) |
