@@ -1,20 +1,33 @@
 function subarraySum(nums: number[], k: number): number {
     let result = 0;
+    const preSumMap = {0: 1};
+    let curSum = 0;
 
-    let [l, r] = [0, nums.length - 1];
-    let rCur = nums.reduce((a, b) => a + b, 0);
+    for (const num of nums) {
+        curSum += num;
 
-    for (let i = r; i >= 0; i--) {
-        let lCur = 0
-        for (let j = 0; j <= i; j++) {
-            if (rCur - lCur === k) {
-                result += 1;
-            }
-            lCur += nums[j];
+        const need = curSum - k;
+        if (preSumMap[need]) {
+            result += preSumMap[need];
         }
 
-        rCur -= nums[i];
+        preSumMap[curSum] = (preSumMap[curSum] ?? 0) + 1;
     }
+
+    // let [l, r] = [0, nums.length - 1];
+    // let rCur = nums.reduce((a, b) => a + b, 0);
+
+    // for (let i = r; i >= 0; i--) {
+    //     let lCur = 0
+    //     for (let j = 0; j <= i; j++) {
+    //         if (rCur - lCur === k) {
+    //             result += 1;
+    //         }
+    //         lCur += nums[j];
+    //     }
+
+    //     rCur -= nums[i];
+    // }
     // while (l < nums.length) {
     //     if (k === cur) {
     //         result += 1;
