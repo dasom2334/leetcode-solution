@@ -40,6 +40,7 @@ https://leetcode.com/dasom2334/
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/dasom2334/leetcode-solution/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/dasom2334/leetcode-solution/tree/master/1458-max-dot-product-of-two-subsequences) |
+| [1594-maximum-non-negative-product-in-a-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1895-largest-magic-square](https://github.com/dasom2334/leetcode-solution/tree/master/1895-largest-magic-square) |
 | [1975-maximum-matrix-sum](https://github.com/dasom2334/leetcode-solution/tree/master/1975-maximum-matrix-sum) |
 | [2625-increment-submatrices-by-one](https://github.com/dasom2334/leetcode-solution/tree/master/2625-increment-submatrices-by-one) |
@@ -107,6 +108,7 @@ https://leetcode.com/dasom2334/
 | [0474-ones-and-zeroes](https://github.com/dasom2334/leetcode-solution/tree/master/0474-ones-and-zeroes) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/dasom2334/leetcode-solution/tree/master/1458-max-dot-product-of-two-subsequences) |
+| [1594-maximum-non-negative-product-in-a-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/dasom2334/leetcode-solution/tree/master/3651-minimum-cost-path-with-teleportations) |
 ## Counting
 |  |
@@ -118,6 +120,7 @@ https://leetcode.com/dasom2334/
 | ------- |
 | [0048-rotate-image](https://github.com/dasom2334/leetcode-solution/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/0054-spiral-matrix) |
+| [1594-maximum-non-negative-product-in-a-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1895-largest-magic-square](https://github.com/dasom2334/leetcode-solution/tree/master/1895-largest-magic-square) |
 | [1975-maximum-matrix-sum](https://github.com/dasom2334/leetcode-solution/tree/master/1975-maximum-matrix-sum) |
 | [2625-increment-submatrices-by-one](https://github.com/dasom2334/leetcode-solution/tree/master/2625-increment-submatrices-by-one) |
