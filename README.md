@@ -56,6 +56,7 @@ https://leetcode.com/dasom2334/
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/dasom2334/leetcode-solution/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/dasom2334/leetcode-solution/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
+| [3418-maximum-amount-of-money-robot-can-earn](https://github.com/dasom2334/leetcode-solution/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3531-count-covered-buildings](https://github.com/dasom2334/leetcode-solution/tree/master/3531-count-covered-buildings) |
 | [3583-count-special-triplets](https://github.com/dasom2334/leetcode-solution/tree/master/3583-count-special-triplets) |
 | [3623-count-number-of-trapezoids-i](https://github.com/dasom2334/leetcode-solution/tree/master/3623-count-number-of-trapezoids-i) |
@@ -125,6 +126,7 @@ https://leetcode.com/dasom2334/
 | [1458-max-dot-product-of-two-subsequences](https://github.com/dasom2334/leetcode-solution/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [2573-find-the-string-with-lcp](https://github.com/dasom2334/leetcode-solution/tree/master/2573-find-the-string-with-lcp) |
+| [3418-maximum-amount-of-money-robot-can-earn](https://github.com/dasom2334/leetcode-solution/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/dasom2334/leetcode-solution/tree/master/3651-minimum-cost-path-with-teleportations) |
 ## Counting
 |  |
@@ -143,6 +145,7 @@ https://leetcode.com/dasom2334/
 | [2573-find-the-string-with-lcp](https://github.com/dasom2334/leetcode-solution/tree/master/2573-find-the-string-with-lcp) |
 | [2625-increment-submatrices-by-one](https://github.com/dasom2334/leetcode-solution/tree/master/2625-increment-submatrices-by-one) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/dasom2334/leetcode-solution/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
+| [3418-maximum-amount-of-money-robot-can-earn](https://github.com/dasom2334/leetcode-solution/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/dasom2334/leetcode-solution/tree/master/3651-minimum-cost-path-with-teleportations) |
 ## Sliding Window
 |  |
