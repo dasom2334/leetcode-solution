@@ -7,8 +7,7 @@ class Solution:
         sorted_idxs = sorted(range(lengths), key=lambda x: robots[x])
         sorted_walls = sorted(walls)
 
-        l_destroed, r_destroed, r_wall_pointer = [0, 0, 0]
-        last_robot_rigt = 0
+        l_destroid, r_destroid, r_wall_pointer = [0, 0, 0]
         for i in range(lengths):
             cur_robot_idx = sorted_idxs[i]
             robot, dist = robots[cur_robot_idx], distance[cur_robot_idx]
@@ -35,26 +34,11 @@ class Solution:
             r_dest = max(0, idx_right - idx_robot_left)
 
             
-            l_cur_destroed = max(r_destroed + rl_dest, l_destroed + l_dest)
-            r_cur_destroed = max(l_destroed, r_destroed) + r_dest
+            l_cur_destroid = max(r_destroid + rl_dest, l_destroid + l_dest)
+            r_cur_destroid = max(l_destroid, r_destroid) + r_dest
 
-            l_destroed = l_cur_destroed
-            r_destroed = r_cur_destroed
+            l_destroid = l_cur_destroid
+            r_destroid = r_cur_destroid
             r_wall_pointer = idx_right
 
-            # print(
-            #     robot, dist,
-            #     left_limit, right_limit,
-            #     # l_dest,
-            #     # rl_dest,
-            #     # r_dest,
-            #     # l_destroed,
-            #     # r_destroed,
-            #     l_wall_pointer,
-            #     r_wall_pointer,
-            #     sorted_walls[l_wall_pointer],
-            #     # sorted_walls[r_wall_pointer],
-            #     # lwp, rwp
-            # )
-
-        return max(l_destroed, r_destroed)
+        return max(l_destroid, r_destroid)
