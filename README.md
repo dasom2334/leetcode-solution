@@ -26,6 +26,7 @@ https://leetcode.com/dasom2334/
 | ------- |
 | [0054-spiral-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/0054-spiral-matrix) |
 | [1642-water-bottles](https://github.com/dasom2334/leetcode-solution/tree/master/1642-water-bottles) |
+| [2075-decode-the-slanted-ciphertext](https://github.com/dasom2334/leetcode-solution/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2211-count-collisions-on-a-road](https://github.com/dasom2334/leetcode-solution/tree/master/2211-count-collisions-on-a-road) |
 | [2288-count-operations-to-obtain-zero](https://github.com/dasom2334/leetcode-solution/tree/master/2288-count-operations-to-obtain-zero) |
 | [2751-robot-collisions](https://github.com/dasom2334/leetcode-solution/tree/master/2751-robot-collisions) |
@@ -111,6 +112,7 @@ https://leetcode.com/dasom2334/
 | [0474-ones-and-zeroes](https://github.com/dasom2334/leetcode-solution/tree/master/0474-ones-and-zeroes) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/dasom2334/leetcode-solution/tree/master/1636-number-of-substrings-with-only-1s) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/dasom2334/leetcode-solution/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2075-decode-the-slanted-ciphertext](https://github.com/dasom2334/leetcode-solution/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2211-count-collisions-on-a-road](https://github.com/dasom2334/leetcode-solution/tree/master/2211-count-collisions-on-a-road) |
 | [2573-find-the-string-with-lcp](https://github.com/dasom2334/leetcode-solution/tree/master/2573-find-the-string-with-lcp) |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/dasom2334/leetcode-solution/tree/master/2839-check-if-strings-can-be-made-equal-with-operations-i) |
