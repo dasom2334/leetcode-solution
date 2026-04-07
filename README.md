@@ -28,6 +28,7 @@ https://leetcode.com/dasom2334/
 | [0657-robot-return-to-origin](https://github.com/dasom2334/leetcode-solution/tree/master/0657-robot-return-to-origin) |
 | [0874-walking-robot-simulation](https://github.com/dasom2334/leetcode-solution/tree/master/0874-walking-robot-simulation) |
 | [1642-water-bottles](https://github.com/dasom2334/leetcode-solution/tree/master/1642-water-bottles) |
+| [2069-walking-robot-simulation-ii](https://github.com/dasom2334/leetcode-solution/tree/master/2069-walking-robot-simulation-ii) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/dasom2334/leetcode-solution/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2211-count-collisions-on-a-road](https://github.com/dasom2334/leetcode-solution/tree/master/2211-count-collisions-on-a-road) |
 | [2288-count-operations-to-obtain-zero](https://github.com/dasom2334/leetcode-solution/tree/master/2288-count-operations-to-obtain-zero) |
@@ -224,4 +225,8 @@ https://leetcode.com/dasom2334/
 |  |
 | ------- |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/dasom2334/leetcode-solution/tree/master/3661-maximum-walls-destroyed-by-robots) |
+## Design
+|  |
+| ------- |
+| [2069-walking-robot-simulation-ii](https://github.com/dasom2334/leetcode-solution/tree/master/2069-walking-robot-simulation-ii) |
 <!---LeetCode Topics End-->
