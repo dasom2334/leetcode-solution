@@ -69,6 +69,7 @@ https://leetcode.com/dasom2334/
 | [3634-minimum-removals-to-balance-array](https://github.com/dasom2334/leetcode-solution/tree/master/3634-minimum-removals-to-balance-array) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/dasom2334/leetcode-solution/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/dasom2334/leetcode-solution/tree/master/3653-xor-after-range-multiplication-queries-i) |
+| [3655-xor-after-range-multiplication-queries-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3655-xor-after-range-multiplication-queries-ii) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/dasom2334/leetcode-solution/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/dasom2334/leetcode-solution/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Prefix Sum
@@ -235,4 +236,5 @@ https://leetcode.com/dasom2334/
 |  |
 | ------- |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/dasom2334/leetcode-solution/tree/master/3653-xor-after-range-multiplication-queries-i) |
+| [3655-xor-after-range-multiplication-queries-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3655-xor-after-range-multiplication-queries-ii) |
 <!---LeetCode Topics End-->
