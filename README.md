@@ -63,6 +63,7 @@ https://leetcode.com/dasom2334/
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/dasom2334/leetcode-solution/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/dasom2334/leetcode-solution/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/dasom2334/leetcode-solution/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/dasom2334/leetcode-solution/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/dasom2334/leetcode-solution/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/dasom2334/leetcode-solution/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
@@ -97,6 +98,7 @@ https://leetcode.com/dasom2334/
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/dasom2334/leetcode-solution/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/dasom2334/leetcode-solution/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/dasom2334/leetcode-solution/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/dasom2334/leetcode-solution/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/dasom2334/leetcode-solution/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3531-count-covered-buildings](https://github.com/dasom2334/leetcode-solution/tree/master/3531-count-covered-buildings) |
 | [3583-count-special-triplets](https://github.com/dasom2334/leetcode-solution/tree/master/3583-count-special-triplets) |
@@ -139,6 +141,7 @@ https://leetcode.com/dasom2334/
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/dasom2334/leetcode-solution/tree/master/2839-check-if-strings-can-be-made-equal-with-operations-i) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/dasom2334/leetcode-solution/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/dasom2334/leetcode-solution/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/dasom2334/leetcode-solution/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/dasom2334/leetcode-solution/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/dasom2334/leetcode-solution/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/dasom2334/leetcode-solution/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
@@ -257,4 +260,8 @@ https://leetcode.com/dasom2334/
 | ------- |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/dasom2334/leetcode-solution/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3655-xor-after-range-multiplication-queries-ii) |
+## Trie
+|  |
+| ------- |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/dasom2334/leetcode-solution/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 <!---LeetCode Topics End-->
