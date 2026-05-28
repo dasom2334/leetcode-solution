@@ -1,9 +1,7 @@
 class Solution:
     def stringIndices(self, wordsContainer: List[str], wordsQuery: List[str]) -> List[int]:
-        zero_idx = sorted(list(range(len(wordsContainer))), key=lambda x: len(wordsContainer[x]))
-
         trie = {
-            'idx': zero_idx[0]
+            'idx': 0
         }
         def link_trie(index: int, dict_pointer: dict, rest_word: str):
             if len(rest_word) == 0:
@@ -22,6 +20,12 @@ class Solution:
             link_trie(index, dict_pointer[cur_char], rest_word[:-1])
         
         for i in range(len(wordsContainer)):
+            idx = trie['idx']
+            if (
+                (len(wordsContainer[idx]) > len(wordsContainer[i]))
+                or (len(wordsContainer[idx]) == len(wordsContainer[i]) and idx > i)
+            ):
+                trie['idx'] = i
             link_trie(i, trie, wordsContainer[i])
 
         result = []
