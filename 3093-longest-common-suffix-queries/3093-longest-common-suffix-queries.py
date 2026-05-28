@@ -1,7 +1,9 @@
 class Solution:
     def stringIndices(self, wordsContainer: List[str], wordsQuery: List[str]) -> List[int]:
+        zero_idx = sorted(list(range(len(wordsContainer))), key=lambda x: len(wordsContainer[x]))
+
         trie = {
-            'idxs': list(range(len(wordsContainer)))
+            'idx': zero_idx[0]
         }
         def link_trie(index: int, dict_pointer: dict, rest_word: str):
             if len(rest_word) == 0:
@@ -9,9 +11,14 @@ class Solution:
             cur_char = rest_word[-1]
             if not cur_char in dict_pointer:
                 dict_pointer[cur_char] = {
-                    'idxs': []
+                    'idx': index
                 }
-            dict_pointer[cur_char]['idxs'].append(index)
+            idx = dict_pointer[cur_char]['idx']
+            if (
+                (len(wordsContainer[idx]) > len(wordsContainer[index]))
+                or (len(wordsContainer[idx]) == len(wordsContainer[index]) and idx > index)
+            ):
+                dict_pointer[cur_char]['idx'] = index
             link_trie(index, dict_pointer[cur_char], rest_word[:-1])
         
         for i in range(len(wordsContainer)):
@@ -21,19 +28,18 @@ class Solution:
         def get_tail_idxs(word: str, dict_pointer: dict):
             if len(word) == 0:
                 # print(word, dict_pointer)
-                return dict_pointer['idxs']
+                return dict_pointer['idx']
             cur_char = word[-1]
             if not cur_char in dict_pointer:
                 # print(word, dict_pointer)
-                return dict_pointer['idxs']
+                return dict_pointer['idx']
             
             return get_tail_idxs(word[:-1], dict_pointer[cur_char])
 
             
         for i in range(len(wordsQuery)):
-            idxs = get_tail_idxs(wordsQuery[i], trie)
-            idxs.sort(key=lambda x: len(wordsContainer[x]))
-            result.append(idxs[0])
+            idx = get_tail_idxs(wordsQuery[i], trie)
+            result.append(idx)
 
 
         return result
