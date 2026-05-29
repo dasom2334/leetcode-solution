@@ -20,6 +20,7 @@ https://leetcode.com/dasom2334/
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/dasom2334/leetcode-solution/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/dasom2334/leetcode-solution/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/dasom2334/leetcode-solution/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3623-count-number-of-trapezoids-i](https://github.com/dasom2334/leetcode-solution/tree/master/3623-count-number-of-trapezoids-i) |
 ## Simulation
 |  |
@@ -67,6 +68,7 @@ https://leetcode.com/dasom2334/
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/dasom2334/leetcode-solution/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3093-longest-common-suffix-queries](https://github.com/dasom2334/leetcode-solution/tree/master/3093-longest-common-suffix-queries) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/dasom2334/leetcode-solution/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/dasom2334/leetcode-solution/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/dasom2334/leetcode-solution/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3531-count-covered-buildings](https://github.com/dasom2334/leetcode-solution/tree/master/3531-count-covered-buildings) |
