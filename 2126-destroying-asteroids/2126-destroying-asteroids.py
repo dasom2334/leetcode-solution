@@ -5,9 +5,7 @@ class Solution:
         n = len(asteroids)
         for i in range(n):
             asteroid = sorted_asteroids[i]
-            if i == n - 1 and cur_mass >= asteroid:
-                continue
-            elif cur_mass < asteroid:
+            if cur_mass < asteroid:
                 return False
             cur_mass += asteroid
 
