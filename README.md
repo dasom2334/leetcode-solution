@@ -77,6 +77,7 @@ https://leetcode.com/dasom2334/
 | [3531-count-covered-buildings](https://github.com/dasom2334/leetcode-solution/tree/master/3531-count-covered-buildings) |
 | [3583-count-special-triplets](https://github.com/dasom2334/leetcode-solution/tree/master/3583-count-special-triplets) |
 | [3623-count-number-of-trapezoids-i](https://github.com/dasom2334/leetcode-solution/tree/master/3623-count-number-of-trapezoids-i) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/dasom2334/leetcode-solution/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3634-minimum-removals-to-balance-array](https://github.com/dasom2334/leetcode-solution/tree/master/3634-minimum-removals-to-balance-array) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/dasom2334/leetcode-solution/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/dasom2334/leetcode-solution/tree/master/3653-xor-after-range-multiplication-queries-i) |
@@ -130,6 +131,7 @@ https://leetcode.com/dasom2334/
 | [2573-find-the-string-with-lcp](https://github.com/dasom2334/leetcode-solution/tree/master/2573-find-the-string-with-lcp) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/dasom2334/leetcode-solution/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/dasom2334/leetcode-solution/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/dasom2334/leetcode-solution/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/dasom2334/leetcode-solution/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Monotonic Stack
 |  |
@@ -214,6 +216,7 @@ https://leetcode.com/dasom2334/
 | [2751-robot-collisions](https://github.com/dasom2334/leetcode-solution/tree/master/2751-robot-collisions) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/dasom2334/leetcode-solution/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3531-count-covered-buildings](https://github.com/dasom2334/leetcode-solution/tree/master/3531-count-covered-buildings) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/dasom2334/leetcode-solution/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3634-minimum-removals-to-balance-array](https://github.com/dasom2334/leetcode-solution/tree/master/3634-minimum-removals-to-balance-array) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/dasom2334/leetcode-solution/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Bit Manipulation
@@ -264,6 +267,7 @@ https://leetcode.com/dasom2334/
 |  |
 | ------- |
 | [3161-block-placement-queries](https://github.com/dasom2334/leetcode-solution/tree/master/3161-block-placement-queries) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/dasom2334/leetcode-solution/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/dasom2334/leetcode-solution/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Design
 |  |
@@ -287,4 +291,8 @@ https://leetcode.com/dasom2334/
 |  |
 | ------- |
 | [3161-block-placement-queries](https://github.com/dasom2334/leetcode-solution/tree/master/3161-block-placement-queries) |
+## Two Pointers
+|  |
+| ------- |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/dasom2334/leetcode-solution/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 <!---LeetCode Topics End-->
