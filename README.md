@@ -22,6 +22,7 @@ https://leetcode.com/dasom2334/
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/dasom2334/leetcode-solution/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3623-count-number-of-trapezoids-i](https://github.com/dasom2334/leetcode-solution/tree/master/3623-count-number-of-trapezoids-i) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/dasom2334/leetcode-solution/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Simulation
 |  |
 | ------- |
@@ -176,6 +177,7 @@ https://leetcode.com/dasom2334/
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/dasom2334/leetcode-solution/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/dasom2334/leetcode-solution/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/dasom2334/leetcode-solution/tree/master/3661-maximum-walls-destroyed-by-robots) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/dasom2334/leetcode-solution/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Counting
 |  |
 | ------- |
@@ -206,6 +208,7 @@ https://leetcode.com/dasom2334/
 | ------- |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/dasom2334/leetcode-solution/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/dasom2334/leetcode-solution/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/dasom2334/leetcode-solution/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Sorting
 |  |
 | ------- |
