@@ -19,7 +19,8 @@ class Solution:
             if num in calc_map:
                 return calc_map[num]
             if num < 1000:
-                return calc_waviness(num)
+                calc_map[num] = calc_waviness(num)
+                return calc_map[num]
             pre = get_waviness(num // 10)
             cur = calc_waviness(num % 1000)
             calc_map[num] = pre + cur
