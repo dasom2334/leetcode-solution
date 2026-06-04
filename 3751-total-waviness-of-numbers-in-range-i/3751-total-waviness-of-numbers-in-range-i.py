@@ -17,11 +17,12 @@ class Solution:
             if num < 100:
                 return 0
             if num in calc_map:
-                calc_map[num]
+                return calc_map[num]
             if num < 1000:
                 return calc_waviness(num)
             pre = get_waviness(num // 10)
             cur = calc_waviness(num % 1000)
+            calc_map[num] = pre + cur
             return pre + cur
         
         waviness = 0
