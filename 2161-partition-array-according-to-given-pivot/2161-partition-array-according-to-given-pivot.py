@@ -1,13 +1,15 @@
 class Solution:
     def pivotArray(self, nums: List[int], pivot: int) -> List[int]:
-        def get_order_point(x: num):
-            if x > pivot:
-                return 2
-            if x == pivot:
-                return 1
-            return 0
-        reranged = sorted(
-            nums,
-            key=lambda x: get_order_point(x)
-        )
-        return reranged
+        less = []
+        equal = []
+        great = []
+        n = len(nums)
+
+        for i in range(n):
+            if nums[i] > pivot:
+                great.append(nums[i])
+            elif nums[i] == pivot:
+                equal.append(nums[i])
+            else:
+                less.append(nums[i])
+        return less + equal + great
