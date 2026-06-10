@@ -12,6 +12,7 @@ class Solution:
         
         for p in range(1, LOG):
             for i in range(n - 2**p + 1):
+                # print(p, i, p-1, i + 2**(p-1))
                 mn[p][i] = min(mn[p-1][i], mn[p-1][i + 2**(p-1)])
                 mx[p][i] = max(mx[p-1][i], mx[p-1][i + 2**(p-1)])
         
