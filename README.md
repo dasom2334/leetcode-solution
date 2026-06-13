@@ -41,6 +41,7 @@ https://leetcode.com/dasom2334/
 | [2751-robot-collisions](https://github.com/dasom2334/leetcode-solution/tree/master/2751-robot-collisions) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/dasom2334/leetcode-solution/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/dasom2334/leetcode-solution/tree/master/3653-xor-after-range-multiplication-queries-i) |
+| [3838-weighted-word-mapping](https://github.com/dasom2334/leetcode-solution/tree/master/3838-weighted-word-mapping) |
 ## Array
 |  |
 | ------- |
@@ -98,6 +99,7 @@ https://leetcode.com/dasom2334/
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/dasom2334/leetcode-solution/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/dasom2334/leetcode-solution/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
+| [3838-weighted-word-mapping](https://github.com/dasom2334/leetcode-solution/tree/master/3838-weighted-word-mapping) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -176,6 +178,7 @@ https://leetcode.com/dasom2334/
 | [3474-lexicographically-smallest-generated-string](https://github.com/dasom2334/leetcode-solution/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/dasom2334/leetcode-solution/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/dasom2334/leetcode-solution/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
+| [3838-weighted-word-mapping](https://github.com/dasom2334/leetcode-solution/tree/master/3838-weighted-word-mapping) |
 ## Dynamic Programming
 |  |
 | ------- |
