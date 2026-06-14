@@ -133,6 +133,7 @@ https://leetcode.com/dasom2334/
 ## Stack
 |  |
 | ------- |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/dasom2334/leetcode-solution/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2211-count-collisions-on-a-road](https://github.com/dasom2334/leetcode-solution/tree/master/2211-count-collisions-on-a-road) |
 | [2751-robot-collisions](https://github.com/dasom2334/leetcode-solution/tree/master/2751-robot-collisions) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/dasom2334/leetcode-solution/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -328,6 +329,7 @@ https://leetcode.com/dasom2334/
 ## Two Pointers
 |  |
 | ------- |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/dasom2334/leetcode-solution/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/dasom2334/leetcode-solution/tree/master/2161-partition-array-according-to-given-pivot) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/dasom2334/leetcode-solution/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -335,4 +337,8 @@ https://leetcode.com/dasom2334/
 |  |
 | ------- |
 | [3691-maximum-total-subarray-value-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3691-maximum-total-subarray-value-ii) |
+## Linked List
+|  |
+| ------- |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/dasom2334/leetcode-solution/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 <!---LeetCode Topics End-->
