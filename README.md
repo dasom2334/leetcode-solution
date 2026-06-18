@@ -14,6 +14,7 @@ https://leetcode.com/dasom2334/
 | [0048-rotate-image](https://github.com/dasom2334/leetcode-solution/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/dasom2334/leetcode-solution/tree/master/0066-plus-one) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/dasom2334/leetcode-solution/tree/master/1015-smallest-integer-divisible-by-k) |
+| [1344-angle-between-hands-of-a-clock](https://github.com/dasom2334/leetcode-solution/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/dasom2334/leetcode-solution/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/dasom2334/leetcode-solution/tree/master/1642-water-bottles) |
 | [2288-count-operations-to-obtain-zero](https://github.com/dasom2334/leetcode-solution/tree/master/2288-count-operations-to-obtain-zero) |
