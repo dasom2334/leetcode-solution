@@ -61,6 +61,7 @@ https://leetcode.com/dasom2334/
 | [1340-jump-game-v](https://github.com/dasom2334/leetcode-solution/tree/master/1340-jump-game-v) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/dasom2334/leetcode-solution/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
+| [1732-find-the-highest-altitude](https://github.com/dasom2334/leetcode-solution/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/dasom2334/leetcode-solution/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/dasom2334/leetcode-solution/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/dasom2334/leetcode-solution/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
@@ -107,6 +108,7 @@ https://leetcode.com/dasom2334/
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/dasom2334/leetcode-solution/tree/master/0560-subarray-sum-equals-k) |
+| [1732-find-the-highest-altitude](https://github.com/dasom2334/leetcode-solution/tree/master/1732-find-the-highest-altitude) |
 | [1871-jump-game-vii](https://github.com/dasom2334/leetcode-solution/tree/master/1871-jump-game-vii) |
 | [1895-largest-magic-square](https://github.com/dasom2334/leetcode-solution/tree/master/1895-largest-magic-square) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/dasom2334/leetcode-solution/tree/master/2059-unique-length-3-palindromic-subsequences) |
