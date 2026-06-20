@@ -17,6 +17,7 @@ https://leetcode.com/dasom2334/
 | [1344-angle-between-hands-of-a-clock](https://github.com/dasom2334/leetcode-solution/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/dasom2334/leetcode-solution/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/dasom2334/leetcode-solution/tree/master/1642-water-bottles) |
+| [1840-maximum-building-height](https://github.com/dasom2334/leetcode-solution/tree/master/1840-maximum-building-height) |
 | [2288-count-operations-to-obtain-zero](https://github.com/dasom2334/leetcode-solution/tree/master/2288-count-operations-to-obtain-zero) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/dasom2334/leetcode-solution/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/dasom2334/leetcode-solution/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
@@ -63,6 +64,7 @@ https://leetcode.com/dasom2334/
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1732-find-the-highest-altitude](https://github.com/dasom2334/leetcode-solution/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/dasom2334/leetcode-solution/tree/master/1752-check-if-array-is-sorted-and-rotated) |
+| [1840-maximum-building-height](https://github.com/dasom2334/leetcode-solution/tree/master/1840-maximum-building-height) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/dasom2334/leetcode-solution/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/dasom2334/leetcode-solution/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [1895-largest-magic-square](https://github.com/dasom2334/leetcode-solution/tree/master/1895-largest-magic-square) |
@@ -242,6 +244,7 @@ https://leetcode.com/dasom2334/
 | [0759-set-intersection-size-at-least-two](https://github.com/dasom2334/leetcode-solution/tree/master/0759-set-intersection-size-at-least-two) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1340-jump-game-v](https://github.com/dasom2334/leetcode-solution/tree/master/1340-jump-game-v) |
+| [1840-maximum-building-height](https://github.com/dasom2334/leetcode-solution/tree/master/1840-maximum-building-height) |
 | [2126-destroying-asteroids](https://github.com/dasom2334/leetcode-solution/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/dasom2334/leetcode-solution/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2463-minimum-total-distance-traveled](https://github.com/dasom2334/leetcode-solution/tree/master/2463-minimum-total-distance-traveled) |
