@@ -64,6 +64,7 @@ https://leetcode.com/dasom2334/
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1732-find-the-highest-altitude](https://github.com/dasom2334/leetcode-solution/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/dasom2334/leetcode-solution/tree/master/1752-check-if-array-is-sorted-and-rotated) |
+| [1833-maximum-ice-cream-bars](https://github.com/dasom2334/leetcode-solution/tree/master/1833-maximum-ice-cream-bars) |
 | [1840-maximum-building-height](https://github.com/dasom2334/leetcode-solution/tree/master/1840-maximum-building-height) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/dasom2334/leetcode-solution/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/dasom2334/leetcode-solution/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
@@ -149,6 +150,7 @@ https://leetcode.com/dasom2334/
 | ------- |
 | [0759-set-intersection-size-at-least-two](https://github.com/dasom2334/leetcode-solution/tree/master/0759-set-intersection-size-at-least-two) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/1262-greatest-sum-divisible-by-three) |
+| [1833-maximum-ice-cream-bars](https://github.com/dasom2334/leetcode-solution/tree/master/1833-maximum-ice-cream-bars) |
 | [1975-maximum-matrix-sum](https://github.com/dasom2334/leetcode-solution/tree/master/1975-maximum-matrix-sum) |
 | [2126-destroying-asteroids](https://github.com/dasom2334/leetcode-solution/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/dasom2334/leetcode-solution/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
@@ -244,6 +246,7 @@ https://leetcode.com/dasom2334/
 | [0759-set-intersection-size-at-least-two](https://github.com/dasom2334/leetcode-solution/tree/master/0759-set-intersection-size-at-least-two) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1340-jump-game-v](https://github.com/dasom2334/leetcode-solution/tree/master/1340-jump-game-v) |
+| [1833-maximum-ice-cream-bars](https://github.com/dasom2334/leetcode-solution/tree/master/1833-maximum-ice-cream-bars) |
 | [1840-maximum-building-height](https://github.com/dasom2334/leetcode-solution/tree/master/1840-maximum-building-height) |
 | [2126-destroying-asteroids](https://github.com/dasom2334/leetcode-solution/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/dasom2334/leetcode-solution/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
@@ -353,4 +356,8 @@ https://leetcode.com/dasom2334/
 | ------- |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/dasom2334/leetcode-solution/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/dasom2334/leetcode-solution/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
+## Counting Sort
+|  |
+| ------- |
+| [1833-maximum-ice-cream-bars](https://github.com/dasom2334/leetcode-solution/tree/master/1833-maximum-ice-cream-bars) |
 <!---LeetCode Topics End-->
