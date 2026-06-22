@@ -125,6 +125,7 @@ https://leetcode.com/dasom2334/
 | [0874-walking-robot-simulation](https://github.com/dasom2334/leetcode-solution/tree/master/0874-walking-robot-simulation) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/dasom2334/leetcode-solution/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/dasom2334/leetcode-solution/tree/master/1015-smallest-integer-divisible-by-k) |
+| [1189-maximum-number-of-balloons](https://github.com/dasom2334/leetcode-solution/tree/master/1189-maximum-number-of-balloons) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/dasom2334/leetcode-solution/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/dasom2334/leetcode-solution/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/dasom2334/leetcode-solution/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
@@ -171,6 +172,7 @@ https://leetcode.com/dasom2334/
 | ------- |
 | [0474-ones-and-zeroes](https://github.com/dasom2334/leetcode-solution/tree/master/0474-ones-and-zeroes) |
 | [0657-robot-return-to-origin](https://github.com/dasom2334/leetcode-solution/tree/master/0657-robot-return-to-origin) |
+| [1189-maximum-number-of-balloons](https://github.com/dasom2334/leetcode-solution/tree/master/1189-maximum-number-of-balloons) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/dasom2334/leetcode-solution/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/dasom2334/leetcode-solution/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1871-jump-game-vii](https://github.com/dasom2334/leetcode-solution/tree/master/1871-jump-game-vii) |
@@ -212,6 +214,7 @@ https://leetcode.com/dasom2334/
 ## Counting
 |  |
 | ------- |
+| [1189-maximum-number-of-balloons](https://github.com/dasom2334/leetcode-solution/tree/master/1189-maximum-number-of-balloons) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/dasom2334/leetcode-solution/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3583-count-special-triplets](https://github.com/dasom2334/leetcode-solution/tree/master/3583-count-special-triplets) |
 ## Matrix
