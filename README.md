@@ -104,6 +104,7 @@ https://leetcode.com/dasom2334/
 | [3689-maximum-total-subarray-value-i](https://github.com/dasom2334/leetcode-solution/tree/master/3689-maximum-total-subarray-value-i) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/dasom2334/leetcode-solution/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/dasom2334/leetcode-solution/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/dasom2334/leetcode-solution/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -120,6 +121,7 @@ https://leetcode.com/dasom2334/
 | [2625-increment-submatrices-by-one](https://github.com/dasom2334/leetcode-solution/tree/master/2625-increment-submatrices-by-one) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/dasom2334/leetcode-solution/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/dasom2334/leetcode-solution/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -139,6 +141,7 @@ https://leetcode.com/dasom2334/
 | [3583-count-special-triplets](https://github.com/dasom2334/leetcode-solution/tree/master/3583-count-special-triplets) |
 | [3623-count-number-of-trapezoids-i](https://github.com/dasom2334/leetcode-solution/tree/master/3623-count-number-of-trapezoids-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/dasom2334/leetcode-solution/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/dasom2334/leetcode-solution/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/dasom2334/leetcode-solution/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -333,6 +336,7 @@ https://leetcode.com/dasom2334/
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/dasom2334/leetcode-solution/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3655-xor-after-range-multiplication-queries-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/dasom2334/leetcode-solution/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Trie
 |  |
 | ------- |
@@ -348,6 +352,7 @@ https://leetcode.com/dasom2334/
 | [3161-block-placement-queries](https://github.com/dasom2334/leetcode-solution/tree/master/3161-block-placement-queries) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/dasom2334/leetcode-solution/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -373,4 +378,5 @@ https://leetcode.com/dasom2334/
 |  |
 | ------- |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/dasom2334/leetcode-solution/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3739-count-subarrays-with-majority-element-ii) |
 <!---LeetCode Topics End-->
