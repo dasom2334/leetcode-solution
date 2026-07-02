@@ -19,8 +19,8 @@ class Solution:
                 if h <= visited[x][y]:
                     continue
                 visited[x][y] = max(h, visited[x][y])
-                # if x == m - 1 and y == n - 1:
-                #     return True
+                if x == m - 1 and y == n - 1 and h >= 1:
+                    return True
                 for d in directions:
                     new_q.append([
                         x + d[0],
@@ -28,4 +28,4 @@ class Solution:
                         h
                     ])
             q = new_q
-        return visited[m - 1][n - 1] >= 1
+        return False
