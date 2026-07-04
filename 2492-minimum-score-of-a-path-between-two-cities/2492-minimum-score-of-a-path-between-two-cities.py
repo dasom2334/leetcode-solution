@@ -2,21 +2,23 @@ class Solution:
     def minScore(self, n: int, roads: List[List[int]]) -> int:
         # edges = [[inf] * n for _ in range(n)]
         edges = defaultdict(list)
-        mem = [inf] * n
+        mem = [False] * n
         for a, b, d in roads:
             edges[a - 1].append([b - 1, d])
             edges[b - 1].append([a - 1, d])
         
-        bfsq = [[0, inf]]
+        bfsq = [0]
+        mem[0] = True
+        result = inf
 
         while bfsq:
             new_bfsq = []
-            for c, v in bfsq:
+            for c in bfsq:
                 for e, ev in edges[c]:
-                    cur_v = min(v, ev)
-                    if mem[e] <= cur_v:
+                    result = min(result, ev)
+                    if mem[e]:
                         continue
-                    mem[e] = cur_v
-                    new_bfsq.append([e, cur_v])
+                    mem[e] = True
+                    new_bfsq.append(e)
             bfsq = new_bfsq
-        return mem[n - 1]
+        return result
