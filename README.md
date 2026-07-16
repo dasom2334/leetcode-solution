@@ -32,6 +32,7 @@ https://leetcode.com/dasom2334/
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/dasom2334/leetcode-solution/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/dasom2334/leetcode-solution/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Simulation
 |  |
 | ------- |
@@ -50,6 +51,7 @@ https://leetcode.com/dasom2334/
 | [3614-process-string-with-special-operations-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3614-process-string-with-special-operations-ii) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/dasom2334/leetcode-solution/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3838-weighted-word-mapping](https://github.com/dasom2334/leetcode-solution/tree/master/3838-weighted-word-mapping) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/dasom2334/leetcode-solution/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Array
 |  |
 | ------- |
@@ -123,6 +125,7 @@ https://leetcode.com/dasom2334/
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/dasom2334/leetcode-solution/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3838-weighted-word-mapping](https://github.com/dasom2334/leetcode-solution/tree/master/3838-weighted-word-mapping) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/dasom2334/leetcode-solution/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -303,6 +306,7 @@ https://leetcode.com/dasom2334/
 | [3634-minimum-removals-to-balance-array](https://github.com/dasom2334/leetcode-solution/tree/master/3634-minimum-removals-to-balance-array) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/dasom2334/leetcode-solution/tree/master/3661-maximum-walls-destroyed-by-robots) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/dasom2334/leetcode-solution/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -417,6 +421,7 @@ https://leetcode.com/dasom2334/
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/dasom2334/leetcode-solution/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/dasom2334/leetcode-solution/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -442,4 +447,5 @@ https://leetcode.com/dasom2334/
 | ------- |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/dasom2334/leetcode-solution/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/dasom2334/leetcode-solution/tree/master/3658-gcd-of-odd-and-even-sums) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/dasom2334/leetcode-solution/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 <!---LeetCode Topics End-->
