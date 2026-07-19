@@ -176,6 +176,7 @@ https://leetcode.com/dasom2334/
 ## Stack
 |  |
 | ------- |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/dasom2334/leetcode-solution/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/dasom2334/leetcode-solution/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2211-count-collisions-on-a-road](https://github.com/dasom2334/leetcode-solution/tree/master/2211-count-collisions-on-a-road) |
 | [2751-robot-collisions](https://github.com/dasom2334/leetcode-solution/tree/master/2751-robot-collisions) |
@@ -184,6 +185,7 @@ https://leetcode.com/dasom2334/
 |  |
 | ------- |
 | [0759-set-intersection-size-at-least-two](https://github.com/dasom2334/leetcode-solution/tree/master/0759-set-intersection-size-at-least-two) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/dasom2334/leetcode-solution/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1833-maximum-ice-cream-bars](https://github.com/dasom2334/leetcode-solution/tree/master/1833-maximum-ice-cream-bars) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/dasom2334/leetcode-solution/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -202,12 +204,14 @@ https://leetcode.com/dasom2334/
 ## Monotonic Stack
 |  |
 | ------- |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/dasom2334/leetcode-solution/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/dasom2334/leetcode-solution/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## String
 |  |
 | ------- |
 | [0474-ones-and-zeroes](https://github.com/dasom2334/leetcode-solution/tree/master/0474-ones-and-zeroes) |
 | [0657-robot-return-to-origin](https://github.com/dasom2334/leetcode-solution/tree/master/0657-robot-return-to-origin) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/dasom2334/leetcode-solution/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1189-maximum-number-of-balloons](https://github.com/dasom2334/leetcode-solution/tree/master/1189-maximum-number-of-balloons) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/dasom2334/leetcode-solution/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/dasom2334/leetcode-solution/tree/master/1358-number-of-substrings-containing-all-three-characters) |
