@@ -41,6 +41,7 @@ https://leetcode.com/dasom2334/
 | [0054-spiral-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/0054-spiral-matrix) |
 | [0657-robot-return-to-origin](https://github.com/dasom2334/leetcode-solution/tree/master/0657-robot-return-to-origin) |
 | [0874-walking-robot-simulation](https://github.com/dasom2334/leetcode-solution/tree/master/0874-walking-robot-simulation) |
+| [1260-shift-2d-grid](https://github.com/dasom2334/leetcode-solution/tree/master/1260-shift-2d-grid) |
 | [1642-water-bottles](https://github.com/dasom2334/leetcode-solution/tree/master/1642-water-bottles) |
 | [2069-walking-robot-simulation-ii](https://github.com/dasom2334/leetcode-solution/tree/master/2069-walking-robot-simulation-ii) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/dasom2334/leetcode-solution/tree/master/2075-decode-the-slanted-ciphertext) |
@@ -66,6 +67,7 @@ https://leetcode.com/dasom2334/
 | [0759-set-intersection-size-at-least-two](https://github.com/dasom2334/leetcode-solution/tree/master/0759-set-intersection-size-at-least-two) |
 | [0874-walking-robot-simulation](https://github.com/dasom2334/leetcode-solution/tree/master/0874-walking-robot-simulation) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/dasom2334/leetcode-solution/tree/master/0961-n-repeated-element-in-size-2n-array) |
+| [1260-shift-2d-grid](https://github.com/dasom2334/leetcode-solution/tree/master/1260-shift-2d-grid) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1288-remove-covered-intervals](https://github.com/dasom2334/leetcode-solution/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/dasom2334/leetcode-solution/tree/master/1331-rank-transform-of-an-array) |
@@ -269,6 +271,7 @@ https://leetcode.com/dasom2334/
 | ------- |
 | [0048-rotate-image](https://github.com/dasom2334/leetcode-solution/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/0054-spiral-matrix) |
+| [1260-shift-2d-grid](https://github.com/dasom2334/leetcode-solution/tree/master/1260-shift-2d-grid) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/dasom2334/leetcode-solution/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [1895-largest-magic-square](https://github.com/dasom2334/leetcode-solution/tree/master/1895-largest-magic-square) |
