@@ -77,6 +77,7 @@ https://leetcode.com/dasom2334/
 | [1331-rank-transform-of-an-array](https://github.com/dasom2334/leetcode-solution/tree/master/1331-rank-transform-of-an-array) |
 | [1340-jump-game-v](https://github.com/dasom2334/leetcode-solution/tree/master/1340-jump-game-v) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/dasom2334/leetcode-solution/tree/master/1458-max-dot-product-of-two-subsequences) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/dasom2334/leetcode-solution/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1732-find-the-highest-altitude](https://github.com/dasom2334/leetcode-solution/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/dasom2334/leetcode-solution/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -316,6 +317,7 @@ https://leetcode.com/dasom2334/
 | [1288-remove-covered-intervals](https://github.com/dasom2334/leetcode-solution/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/dasom2334/leetcode-solution/tree/master/1331-rank-transform-of-an-array) |
 | [1340-jump-game-v](https://github.com/dasom2334/leetcode-solution/tree/master/1340-jump-game-v) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/dasom2334/leetcode-solution/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1833-maximum-ice-cream-bars](https://github.com/dasom2334/leetcode-solution/tree/master/1833-maximum-ice-cream-bars) |
 | [1840-maximum-building-height](https://github.com/dasom2334/leetcode-solution/tree/master/1840-maximum-building-height) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/dasom2334/leetcode-solution/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -454,6 +456,7 @@ https://leetcode.com/dasom2334/
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/dasom2334/leetcode-solution/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/dasom2334/leetcode-solution/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/dasom2334/leetcode-solution/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3691-maximum-total-subarray-value-ii) |
