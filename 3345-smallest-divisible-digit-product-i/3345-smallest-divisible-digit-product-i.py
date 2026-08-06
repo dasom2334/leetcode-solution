@@ -1,20 +1,14 @@
 class Solution:
     def smallestNumber(self, n: int, t: int) -> int:
-        digits = list(map(int, list(str(n))))
-        print(digits)
+        cur = n
 
-        while True:
-            p = math.prod(digits)
-            if p % t == 0:
-                return int("".join(list(map(str, digits))))
-            digits[-1] += 1
-            for i in range(1, len(digits) + 1):
-                if digits[-i] >= 10:
-                    if len(digits) >= (i + 1):
-                        digits[-(i + 1)] += 1
-                    else: 
-                        digits = [1] + digits
-                    digits[-i] = 0
-
-
-        return int("".join(list(map(str, digits))))
+        while cur <= 100:
+            c = cur
+            prod = 1
+            while c > 0:
+                prod *= c % 10
+                c //= 10
+            if prod % t == 0:
+                return cur
+            cur += 1
+        return cur
