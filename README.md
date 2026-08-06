@@ -29,6 +29,7 @@ https://leetcode.com/dasom2334/
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/dasom2334/leetcode-solution/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3312-sorted-gcd-pair-queries](https://github.com/dasom2334/leetcode-solution/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/dasom2334/leetcode-solution/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3345-smallest-divisible-digit-product-i](https://github.com/dasom2334/leetcode-solution/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/dasom2334/leetcode-solution/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/dasom2334/leetcode-solution/tree/master/3536-maximum-product-of-two-digits) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/dasom2334/leetcode-solution/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
@@ -314,6 +315,7 @@ https://leetcode.com/dasom2334/
 | [1291-sequential-digits](https://github.com/dasom2334/leetcode-solution/tree/master/1291-sequential-digits) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/dasom2334/leetcode-solution/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/dasom2334/leetcode-solution/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+| [3345-smallest-divisible-digit-product-i](https://github.com/dasom2334/leetcode-solution/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/dasom2334/leetcode-solution/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/dasom2334/leetcode-solution/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/dasom2334/leetcode-solution/tree/master/3751-total-waviness-of-numbers-in-range-i) |
