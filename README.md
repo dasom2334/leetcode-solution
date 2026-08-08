@@ -210,6 +210,7 @@ https://leetcode.com/dasom2334/
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/dasom2334/leetcode-solution/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2573-find-the-string-with-lcp](https://github.com/dasom2334/leetcode-solution/tree/master/2573-find-the-string-with-lcp) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/dasom2334/leetcode-solution/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/dasom2334/leetcode-solution/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/dasom2334/leetcode-solution/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/dasom2334/leetcode-solution/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
@@ -248,6 +249,7 @@ https://leetcode.com/dasom2334/
 | [3093-longest-common-suffix-queries](https://github.com/dasom2334/leetcode-solution/tree/master/3093-longest-common-suffix-queries) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/dasom2334/leetcode-solution/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3121-count-the-number-of-special-characters-ii) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/dasom2334/leetcode-solution/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/dasom2334/leetcode-solution/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/dasom2334/leetcode-solution/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
@@ -272,6 +274,7 @@ https://leetcode.com/dasom2334/
 | [1871-jump-game-vii](https://github.com/dasom2334/leetcode-solution/tree/master/1871-jump-game-vii) |
 | [2463-minimum-total-distance-traveled](https://github.com/dasom2334/leetcode-solution/tree/master/2463-minimum-total-distance-traveled) |
 | [2573-find-the-string-with-lcp](https://github.com/dasom2334/leetcode-solution/tree/master/2573-find-the-string-with-lcp) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/dasom2334/leetcode-solution/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/dasom2334/leetcode-solution/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/dasom2334/leetcode-solution/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -468,6 +471,7 @@ https://leetcode.com/dasom2334/
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/dasom2334/leetcode-solution/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/dasom2334/leetcode-solution/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/dasom2334/leetcode-solution/tree/master/2161-partition-array-according-to-given-pivot) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/dasom2334/leetcode-solution/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/dasom2334/leetcode-solution/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
