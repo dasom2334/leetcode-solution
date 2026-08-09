@@ -15,6 +15,7 @@ https://leetcode.com/dasom2334/
 | [0066-plus-one](https://github.com/dasom2334/leetcode-solution/tree/master/0066-plus-one) |
 | [0628-maximum-product-of-three-numbers](https://github.com/dasom2334/leetcode-solution/tree/master/0628-maximum-product-of-three-numbers) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/dasom2334/leetcode-solution/tree/master/1015-smallest-integer-divisible-by-k) |
+| [1140-stone-game-ii](https://github.com/dasom2334/leetcode-solution/tree/master/1140-stone-game-ii) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/dasom2334/leetcode-solution/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1406-stone-game-iii](https://github.com/dasom2334/leetcode-solution/tree/master/1406-stone-game-iii) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/dasom2334/leetcode-solution/tree/master/1636-number-of-substrings-with-only-1s) |
@@ -75,6 +76,7 @@ https://leetcode.com/dasom2334/
 | [0759-set-intersection-size-at-least-two](https://github.com/dasom2334/leetcode-solution/tree/master/0759-set-intersection-size-at-least-two) |
 | [0874-walking-robot-simulation](https://github.com/dasom2334/leetcode-solution/tree/master/0874-walking-robot-simulation) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/dasom2334/leetcode-solution/tree/master/0961-n-repeated-element-in-size-2n-array) |
+| [1140-stone-game-ii](https://github.com/dasom2334/leetcode-solution/tree/master/1140-stone-game-ii) |
 | [1260-shift-2d-grid](https://github.com/dasom2334/leetcode-solution/tree/master/1260-shift-2d-grid) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1288-remove-covered-intervals](https://github.com/dasom2334/leetcode-solution/tree/master/1288-remove-covered-intervals) |
@@ -149,6 +151,7 @@ https://leetcode.com/dasom2334/
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/dasom2334/leetcode-solution/tree/master/0560-subarray-sum-equals-k) |
+| [1140-stone-game-ii](https://github.com/dasom2334/leetcode-solution/tree/master/1140-stone-game-ii) |
 | [1732-find-the-highest-altitude](https://github.com/dasom2334/leetcode-solution/tree/master/1732-find-the-highest-altitude) |
 | [1871-jump-game-vii](https://github.com/dasom2334/leetcode-solution/tree/master/1871-jump-game-vii) |
 | [1895-largest-magic-square](https://github.com/dasom2334/leetcode-solution/tree/master/1895-largest-magic-square) |
@@ -265,6 +268,7 @@ https://leetcode.com/dasom2334/
 |  |
 | ------- |
 | [0474-ones-and-zeroes](https://github.com/dasom2334/leetcode-solution/tree/master/0474-ones-and-zeroes) |
+| [1140-stone-game-ii](https://github.com/dasom2334/leetcode-solution/tree/master/1140-stone-game-ii) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/dasom2334/leetcode-solution/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/dasom2334/leetcode-solution/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1340-jump-game-v](https://github.com/dasom2334/leetcode-solution/tree/master/1340-jump-game-v) |
@@ -514,14 +518,17 @@ https://leetcode.com/dasom2334/
 ## Minimax
 |  |
 | ------- |
+| [1140-stone-game-ii](https://github.com/dasom2334/leetcode-solution/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/dasom2334/leetcode-solution/tree/master/1406-stone-game-iii) |
 ## Game Theory
 |  |
 | ------- |
+| [1140-stone-game-ii](https://github.com/dasom2334/leetcode-solution/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/dasom2334/leetcode-solution/tree/master/1406-stone-game-iii) |
 ## Zero-Sum Game
 |  |
 | ------- |
+| [1140-stone-game-ii](https://github.com/dasom2334/leetcode-solution/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/dasom2334/leetcode-solution/tree/master/1406-stone-game-iii) |
 ## Backtracking
 |  |
