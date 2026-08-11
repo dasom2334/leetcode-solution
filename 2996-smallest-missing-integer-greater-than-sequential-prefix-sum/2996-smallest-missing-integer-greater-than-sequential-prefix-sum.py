@@ -10,7 +10,7 @@ class Solution:
             else:
                 break
         
-        while cur in nums:
+        while cur in set(nums):
             cur += 1
         return cur
         
