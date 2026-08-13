@@ -101,6 +101,7 @@ https://leetcode.com/dasom2334/
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/dasom2334/leetcode-solution/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/dasom2334/leetcode-solution/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/dasom2334/leetcode-solution/tree/master/2196-create-binary-tree-from-descriptions) |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/dasom2334/leetcode-solution/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2463-minimum-total-distance-traveled](https://github.com/dasom2334/leetcode-solution/tree/master/2463-minimum-total-distance-traveled) |
 | [2573-find-the-string-with-lcp](https://github.com/dasom2334/leetcode-solution/tree/master/2573-find-the-string-with-lcp) |
 | [2574-left-and-right-sum-differences](https://github.com/dasom2334/leetcode-solution/tree/master/2574-left-and-right-sum-differences) |
@@ -247,6 +248,7 @@ https://leetcode.com/dasom2334/
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/dasom2334/leetcode-solution/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/dasom2334/leetcode-solution/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2211-count-collisions-on-a-road](https://github.com/dasom2334/leetcode-solution/tree/master/2211-count-collisions-on-a-road) |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/dasom2334/leetcode-solution/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2573-find-the-string-with-lcp](https://github.com/dasom2334/leetcode-solution/tree/master/2573-find-the-string-with-lcp) |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/dasom2334/leetcode-solution/tree/master/2839-check-if-strings-can-be-made-equal-with-operations-i) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/dasom2334/leetcode-solution/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
@@ -470,6 +472,7 @@ https://leetcode.com/dasom2334/
 ## Segment Tree
 |  |
 | ------- |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/dasom2334/leetcode-solution/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [3161-block-placement-queries](https://github.com/dasom2334/leetcode-solution/tree/master/3161-block-placement-queries) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3691-maximum-total-subarray-value-ii) |
@@ -540,4 +543,8 @@ https://leetcode.com/dasom2334/
 |  |
 | ------- |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3348-smallest-divisible-digit-product-ii) |
+## Ordered Set
+|  |
+| ------- |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/dasom2334/leetcode-solution/tree/master/2213-longest-substring-of-one-repeating-character) |
 <!---LeetCode Topics End-->
