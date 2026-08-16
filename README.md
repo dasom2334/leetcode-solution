@@ -22,6 +22,7 @@ https://leetcode.com/dasom2334/
 | [1642-water-bottles](https://github.com/dasom2334/leetcode-solution/tree/master/1642-water-bottles) |
 | [1840-maximum-building-height](https://github.com/dasom2334/leetcode-solution/tree/master/1840-maximum-building-height) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/dasom2334/leetcode-solution/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2029-stone-game-ix](https://github.com/dasom2334/leetcode-solution/tree/master/2029-stone-game-ix) |
 | [2288-count-operations-to-obtain-zero](https://github.com/dasom2334/leetcode-solution/tree/master/2288-count-operations-to-obtain-zero) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/dasom2334/leetcode-solution/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/dasom2334/leetcode-solution/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -97,6 +98,7 @@ https://leetcode.com/dasom2334/
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/dasom2334/leetcode-solution/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1975-maximum-matrix-sum](https://github.com/dasom2334/leetcode-solution/tree/master/1975-maximum-matrix-sum) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/dasom2334/leetcode-solution/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2029-stone-game-ix](https://github.com/dasom2334/leetcode-solution/tree/master/2029-stone-game-ix) |
 | [2126-destroying-asteroids](https://github.com/dasom2334/leetcode-solution/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/dasom2334/leetcode-solution/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/dasom2334/leetcode-solution/tree/master/2161-partition-array-according-to-given-pivot) |
@@ -216,6 +218,7 @@ https://leetcode.com/dasom2334/
 | [1833-maximum-ice-cream-bars](https://github.com/dasom2334/leetcode-solution/tree/master/1833-maximum-ice-cream-bars) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/dasom2334/leetcode-solution/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1975-maximum-matrix-sum](https://github.com/dasom2334/leetcode-solution/tree/master/1975-maximum-matrix-sum) |
+| [2029-stone-game-ix](https://github.com/dasom2334/leetcode-solution/tree/master/2029-stone-game-ix) |
 | [2126-destroying-asteroids](https://github.com/dasom2334/leetcode-solution/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/dasom2334/leetcode-solution/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2573-find-the-string-with-lcp](https://github.com/dasom2334/leetcode-solution/tree/master/2573-find-the-string-with-lcp) |
@@ -300,6 +303,7 @@ https://leetcode.com/dasom2334/
 |  |
 | ------- |
 | [1189-maximum-number-of-balloons](https://github.com/dasom2334/leetcode-solution/tree/master/1189-maximum-number-of-balloons) |
+| [2029-stone-game-ix](https://github.com/dasom2334/leetcode-solution/tree/master/2029-stone-game-ix) |
 | [3312-sorted-gcd-pair-queries](https://github.com/dasom2334/leetcode-solution/tree/master/3312-sorted-gcd-pair-queries) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/dasom2334/leetcode-solution/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3583-count-special-triplets](https://github.com/dasom2334/leetcode-solution/tree/master/3583-count-special-triplets) |
@@ -534,16 +538,19 @@ https://leetcode.com/dasom2334/
 | ------- |
 | [1140-stone-game-ii](https://github.com/dasom2334/leetcode-solution/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/dasom2334/leetcode-solution/tree/master/1406-stone-game-iii) |
+| [2029-stone-game-ix](https://github.com/dasom2334/leetcode-solution/tree/master/2029-stone-game-ix) |
 ## Game Theory
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/dasom2334/leetcode-solution/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/dasom2334/leetcode-solution/tree/master/1406-stone-game-iii) |
+| [2029-stone-game-ix](https://github.com/dasom2334/leetcode-solution/tree/master/2029-stone-game-ix) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/dasom2334/leetcode-solution/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/dasom2334/leetcode-solution/tree/master/1406-stone-game-iii) |
+| [2029-stone-game-ix](https://github.com/dasom2334/leetcode-solution/tree/master/2029-stone-game-ix) |
 ## Backtracking
 |  |
 | ------- |
@@ -552,4 +559,8 @@ https://leetcode.com/dasom2334/
 |  |
 | ------- |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/dasom2334/leetcode-solution/tree/master/2213-longest-substring-of-one-repeating-character) |
+## Nim Game
+|  |
+| ------- |
+| [2029-stone-game-ix](https://github.com/dasom2334/leetcode-solution/tree/master/2029-stone-game-ix) |
 <!---LeetCode Topics End-->
