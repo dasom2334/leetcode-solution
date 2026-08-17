@@ -18,6 +18,7 @@ https://leetcode.com/dasom2334/
 | [1140-stone-game-ii](https://github.com/dasom2334/leetcode-solution/tree/master/1140-stone-game-ii) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/dasom2334/leetcode-solution/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1406-stone-game-iii](https://github.com/dasom2334/leetcode-solution/tree/master/1406-stone-game-iii) |
+| [1563-stone-game-v](https://github.com/dasom2334/leetcode-solution/tree/master/1563-stone-game-v) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/dasom2334/leetcode-solution/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/dasom2334/leetcode-solution/tree/master/1642-water-bottles) |
 | [1840-maximum-building-height](https://github.com/dasom2334/leetcode-solution/tree/master/1840-maximum-building-height) |
@@ -86,6 +87,7 @@ https://leetcode.com/dasom2334/
 | [1406-stone-game-iii](https://github.com/dasom2334/leetcode-solution/tree/master/1406-stone-game-iii) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/dasom2334/leetcode-solution/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/dasom2334/leetcode-solution/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1563-stone-game-v](https://github.com/dasom2334/leetcode-solution/tree/master/1563-stone-game-v) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1732-find-the-highest-altitude](https://github.com/dasom2334/leetcode-solution/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/dasom2334/leetcode-solution/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -286,6 +288,7 @@ https://leetcode.com/dasom2334/
 | [1340-jump-game-v](https://github.com/dasom2334/leetcode-solution/tree/master/1340-jump-game-v) |
 | [1406-stone-game-iii](https://github.com/dasom2334/leetcode-solution/tree/master/1406-stone-game-iii) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/dasom2334/leetcode-solution/tree/master/1458-max-dot-product-of-two-subsequences) |
+| [1563-stone-game-v](https://github.com/dasom2334/leetcode-solution/tree/master/1563-stone-game-v) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/dasom2334/leetcode-solution/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1871-jump-game-vii](https://github.com/dasom2334/leetcode-solution/tree/master/1871-jump-game-vii) |
 | [2463-minimum-total-distance-traveled](https://github.com/dasom2334/leetcode-solution/tree/master/2463-minimum-total-distance-traveled) |
@@ -544,6 +547,7 @@ https://leetcode.com/dasom2334/
 | ------- |
 | [1140-stone-game-ii](https://github.com/dasom2334/leetcode-solution/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/dasom2334/leetcode-solution/tree/master/1406-stone-game-iii) |
+| [1563-stone-game-v](https://github.com/dasom2334/leetcode-solution/tree/master/1563-stone-game-v) |
 | [2029-stone-game-ix](https://github.com/dasom2334/leetcode-solution/tree/master/2029-stone-game-ix) |
 ## Zero-Sum Game
 |  |
