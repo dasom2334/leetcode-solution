@@ -38,6 +38,7 @@ https://leetcode.com/dasom2334/
 | [3536-maximum-product-of-two-digits](https://github.com/dasom2334/leetcode-solution/tree/master/3536-maximum-product-of-two-digits) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/dasom2334/leetcode-solution/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/dasom2334/leetcode-solution/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
+| [3622-check-divisibility-by-digit-sum-and-product](https://github.com/dasom2334/leetcode-solution/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 | [3623-count-number-of-trapezoids-i](https://github.com/dasom2334/leetcode-solution/tree/master/3623-count-number-of-trapezoids-i) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/dasom2334/leetcode-solution/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/dasom2334/leetcode-solution/tree/master/3751-total-waviness-of-numbers-in-range-i) |
