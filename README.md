@@ -22,6 +22,7 @@ https://leetcode.com/dasom2334/
 | [1636-number-of-substrings-with-only-1s](https://github.com/dasom2334/leetcode-solution/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/dasom2334/leetcode-solution/tree/master/1642-water-bottles) |
 | [1840-maximum-building-height](https://github.com/dasom2334/leetcode-solution/tree/master/1840-maximum-building-height) |
+| [1927-sum-game](https://github.com/dasom2334/leetcode-solution/tree/master/1927-sum-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/dasom2334/leetcode-solution/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/dasom2334/leetcode-solution/tree/master/2029-stone-game-ix) |
 | [2288-count-operations-to-obtain-zero](https://github.com/dasom2334/leetcode-solution/tree/master/2288-count-operations-to-obtain-zero) |
@@ -227,6 +228,7 @@ https://leetcode.com/dasom2334/
 | [1386-cinema-seat-allocation](https://github.com/dasom2334/leetcode-solution/tree/master/1386-cinema-seat-allocation) |
 | [1833-maximum-ice-cream-bars](https://github.com/dasom2334/leetcode-solution/tree/master/1833-maximum-ice-cream-bars) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/dasom2334/leetcode-solution/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
+| [1927-sum-game](https://github.com/dasom2334/leetcode-solution/tree/master/1927-sum-game) |
 | [1975-maximum-matrix-sum](https://github.com/dasom2334/leetcode-solution/tree/master/1975-maximum-matrix-sum) |
 | [2029-stone-game-ix](https://github.com/dasom2334/leetcode-solution/tree/master/2029-stone-game-ix) |
 | [2126-destroying-asteroids](https://github.com/dasom2334/leetcode-solution/tree/master/2126-destroying-asteroids) |
@@ -259,6 +261,7 @@ https://leetcode.com/dasom2334/
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/dasom2334/leetcode-solution/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/dasom2334/leetcode-solution/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1871-jump-game-vii](https://github.com/dasom2334/leetcode-solution/tree/master/1871-jump-game-vii) |
+| [1927-sum-game](https://github.com/dasom2334/leetcode-solution/tree/master/1927-sum-game) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/dasom2334/leetcode-solution/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/dasom2334/leetcode-solution/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/dasom2334/leetcode-solution/tree/master/2075-decode-the-slanted-ciphertext) |
@@ -557,6 +560,7 @@ https://leetcode.com/dasom2334/
 | [1140-stone-game-ii](https://github.com/dasom2334/leetcode-solution/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/dasom2334/leetcode-solution/tree/master/1406-stone-game-iii) |
 | [1563-stone-game-v](https://github.com/dasom2334/leetcode-solution/tree/master/1563-stone-game-v) |
+| [1927-sum-game](https://github.com/dasom2334/leetcode-solution/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/dasom2334/leetcode-solution/tree/master/2029-stone-game-ix) |
 ## Zero-Sum Game
 |  |
